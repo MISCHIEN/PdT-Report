@@ -1,0 +1,117 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{geometry}
+
+\usepackage{array,multirow,makecell}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\setcellgapes{4pt}
+\makegapedcells
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash }b{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash }b{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash }b{#1}}
+
+\usepackage[pages=some]{background}
+\backgroundsetup{
+	scale=1,
+	color=black,
+	opacity=0.1,
+	angle=0,
+	contents={%
+		\includegraphics[width=\paperwidth,height=\paperheight]{img/ulbback.jpg}
+	}%
+}
+
+
+\title{\Huge\emph{Cooling down a coke can}\\
+	\LARGE Experiment study\\
+	\vspace{11pt}
+	\normalsize Fluid Mechanics and Transport Processes}
+
+\date{December 2015}
+
+\author{Nathan DE PRYCK \and Miquel KEGELEIRS \and Mischa MASSON}
+
+
+
+\begin{document}
+	
+	\begin{figure}[t]
+		\includegraphics[width=15cm]{img/entete.PNG}
+	\end{figure}
+	
+	\maketitle
+	
+	\renewcommand{\abstractname}{``Cooling down a coke can'' \\Experiment study by Nathan De Pryck, Miquel Kegeleirs and Mischa Masson\\ Université Libre de Bruxelles\\2015-2016.}
+	
+	\BgThispage
+	
+	\begin{abstract}
+		TO BE WRITTEN
+	\end{abstract}
+	
+	\clearpage
+	
+	
+	\tableofcontents
+	
+	\chapter{Introduction}\label{intro}
+	
+	This report outlines the physics behind an experiment produced during the MECA-H3001 ``Fluid Mechanics and Transport Processes'' course of the ULB (Université Libre de Bruxelles) on Friday, the sixteenth of October 2015.
+	
+	The experiment can be found by following \hyperref{https://www.youtube.com/watch?v=MSwc_IAPh3E}{}{}{this link}\footnote{\url{https://www.youtube.com/watch?v=MSwc_IAPh3E}} and was described as following:
+	
+	\begin{itemize}
+		\item Three coke cans were available as well as a bucket of ice and water (at 0\textdegree C) and a drill to spin the	can inside the bucket.
+		\item One of the cans was used to determine the initial temperature (16\textdegree C) of the fluid (essentially water) inside the can.
+		\item One can was left inside the bucket for 60 seconds and a final temperature of 11.9°C was measured as a result of the conductive heat transfer with the surrounding fluid.
+		\item One can was spun inside the bucket for 60 seconds at about 1000 rounds per minute, and a final temperature of 11\textdegree C was measured as a result of the convective and conductive heat transfer.
+	\end{itemize}
+	
+	In the first chapter, convective and conductive processes that are related to the experiment will be described. Those phenomena will then be applied to the problem via a mathematical model, including a discussion of simplifications brought to the problem in order to simplify calculations. Lastly, a comparison between the model and reality followed by a conclusion on mathematical models will be presented.
+	
+	\chapter{Heat transfer processes}\label{htp}
+	
+	They are three different ways of transferring heat: conduction, convection and radiation. Du to its nature, radiation can be neglected for this experiment and will thus not be presented here.
+	
+	\section{Conduction}\label{cd}
+	
+	Thermal conduction is a heat transfer process without macroscopic movement of matter. It is initiated by a difference of temperature between contiguous bodies (or inside a body). This difference of temperature implies a difference of internal energy : the energy is higher in the warmer area than in the cooler. By diffusion and collisions between the particles which can be molecules in a fluid or conduction electrons in a solid, particles in the warmer area transfer kinetic energy to the other particles, making them moving or vibrating faster. This creates a heat flow from the warmer area to the cooler until the system reaches thermal equilibrium. Also conduction is an irreversible process.
+	
+	In this experiment, heat transfer by conduction is the most significant process in the first part but occurs also in the second part, in addition to convection.
+	
+	\section{Convection}\label{cv}
+	
+	%Convective heat transfer refers to heat transfers due to the movement of fluids.
+	%In particular, it includes heat flux in a fluid or heat transfer between a surface and a moving fluid.  
+	\paragraph{}Convection is a heat transfer in fluid. Convection occurs when some fluid is in movement. The movement lead to an advection(heat is transported by matters when it's moving). Then convection is decripted by :\\
+	$Convection = Conduction + advection$
+	
+	\paragraph{}Then it's easily to understand that convection is superior than conduction in fluids. In a flux situation convection is important as heat transfer mechanism.Then flow properties have a major part in heat transfers.
+	
+	\chapter{Mathematical model}\label{mm}
+	
+	The idea behind mathematical models is to create a simplified version of a problem, that is accurate enough to predict the behaviour of a system, but simple enough to be resolved with few calculations.
+	
+	This means that some simplifications of the equations seen before can be made, using the properties of the studied system.
+	
+	\section{Simplifying assumptions}\label{sa}
+	
+	\section{Simplified model}\label{sm}
+	
+	\chapter[Reality and mathematical model]{Comparison between reality and the mathematical model}\label{rvmm}
+	
+	\chapter{Conclusion}\label{ccl}
+	
+	
+	\bibliography{biblio}{}
+	\bibliographystyle{plain}
+	
+\end{document}

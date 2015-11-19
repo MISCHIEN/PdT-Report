@@ -1,0 +1,79 @@
+\iffalse
+article
+Un article, provenant d'une revue ou d'un magazine.
+Champs requis : author, title, journal, year
+Champs optionnels : volume, number, pages, month, note, key
+
+book
+Un livre.
+Champs requis : author/editor, title, publisher, year
+Champs optionnels : volume, series, address, edition, month, note, key, isbn
+
+booklet
+Un document imprimé, mais sans maison d'édition ou d'institution sponsor.
+Champs requis : title
+Champs optionnels : author, howpublished, address, month, year, note, key
+
+conference
+Identique à inproceedings ; inclus pour la compatibilité avec Scribe.
+Champs requis : author, title, booktitle, year
+Champs optionnels : editor, pages, organization, publisher, address, month, note, key
+
+inbook
+Une partie d'un livre, souvent sans nom. Peut être un chapitre et/ou un ensemble de pages.
+Champs requis : author/editor, title, chapter/pages, publisher, year
+Champs optionnels : volume, series, address, edition, month, note, key
+
+incollection
+Une partie d'un livre qui possède son propre titre.
+Champs requis : author, title, booktitle, year
+Champs optionnels : editor, pages, organization, publisher, address, month, note, key
+
+inproceedings
+Un article d'une conférence.
+Champs requis : author, title, booktitle, year
+Champs optionnels : editor, pages, organization, publisher, address, month, note, key
+
+manual
+Documentation technique.
+Champs requis : title
+Champs optionnels : author, organization, address, edition, month, year, note, key
+
+mastersthesis
+Un mémoire de master.
+Champs requis : author, title, school, year
+Champs optionnels : address, month, note, key
+
+misc
+Pour les documents qui ne correspondent à aucune des autres catégories listées.
+Champs requis : aucun
+Champs optionnels : author, title, howpublished, month, year, note, key
+
+phdthesis
+Une thèse de doctorat.
+Champs requis : author, title, school, year
+Champs optionnels : address, month, note, key
+
+proceedings
+Les débats (actes) d'une conférence.
+Champs requis : title, year
+Champs optionnels : editor, publisher, organization, address, month, note, key
+
+techreport
+Un rapport technique, publié par une école ou un autre institution, numéroté par série.
+Champs requis : author, title, institution, year
+Champs optionnels : type, number, address, month, note, key
+
+unpublished
+Un document qui possède un auteur et un titre, mais qui n'a pas été formellement publié.
+Champs requis : author, title, note
+Champs optionnels : month, year, key
+\fi
+
+ @book{Ben62,
+    title = "L'Oxydation des m\'etaux",
+    author = "J. B{\'e}nard and J. Bardolle and F. Bouillon and M. Cagnet%
+       and J. Moreau and G. Valensi",
+    publisher = "Gauthier-Villars",
+    year = "1962"
+ }

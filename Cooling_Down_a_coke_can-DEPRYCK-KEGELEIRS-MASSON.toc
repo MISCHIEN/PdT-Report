@@ -1,0 +1,12 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
+\contentsline {chapter}{\numberline {2}Heat transfer processes}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Conduction}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Convection}{3}{section.2.2}
+\contentsline {paragraph}{}{3}{section*.2}
+\contentsline {paragraph}{}{3}{section*.3}
+\contentsline {chapter}{\numberline {3}Mathematical model}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Simplifying assumptions}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}Simplified model}{4}{section.3.2}
+\contentsline {chapter}{\numberline {4}Reality and mathematical model}{5}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusion}{6}{chapter.5}
