@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.28)  16 NOV 2015 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.28)  19 NOV 2015 16:46
 entering extended mode
 **Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.tex
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.tex
@@ -1141,13 +1141,16 @@ Chapitre 4.
 Chapitre 5.
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.bbl [6
 
-]) [7
+]
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [7
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
-
-(Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.aux)
+ (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MA
@@ -1156,35 +1159,33 @@ SSON.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 18268 strings out of 493698
- 330966 string characters out of 3141985
- 399139 words of memory out of 3000000
- 21228 multiletter control sequences out of 15000+200000
- 18767 words of font info for 44 fonts, out of 3000000 for 9000
+ 18260 strings out of 493698
+ 330877 string characters out of 3141985
+ 399112 words of memory out of 3000000
+ 21222 multiletter control sequences out of 15000+200000
+ 18081 words of font info for 43 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  62i,8n,56p,771b,780s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
-00\ecti1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
-appen\ec\dpi600\ecbx1440.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ectt0800.pk> <C:\Users\MISCHIEN\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\MISCHIEN\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk> <C:\Users\M
-ISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk
+00\ecbx1440.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ectt0800.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\MISCHIEN\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk> <C:\Users\MISCHIEN\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\M
+ISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk
 > <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecbx2074.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecbx2488.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\MISCHIEN\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\MI
-SCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
- <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecti2488.pk><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r10.pfb>
+0\ecbx2488.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\ecbx1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\MISCHIEN\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\MI
+SCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti2488.pk>
+<B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><B
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 Output written on Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.pdf (9 pages
-, 1653547 bytes).
+, 1645479 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
+ 433 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
  95 words of extra memory for PDF output out of 10000 (max. 10000000)
 
