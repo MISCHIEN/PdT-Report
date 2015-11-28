@@ -8,6 +8,7 @@
 \usepackage{textcomp}
 \usepackage{amsmath}
 \usepackage{geometry}
+\usepackage{pdfpages}
 
 \usepackage{array,multirow,makecell}
 \setcounter{secnumdepth}{3}
@@ -69,10 +70,10 @@
 	The experiment can be found by following \hyperref{https://www.youtube.com/watch?v=MSwc_IAPh3E}{}{}{this link}\footnote{\url{https://www.youtube.com/watch?v=MSwc_IAPh3E}} and was described as following:
 	
 	\begin{itemize}
-		\item Three coke cans were available as well as a bucket of ice and water (at 0\textdegree C) and a drill to spin the	can inside the bucket.
-		\item One of the cans was used to determine the initial temperature (16\textdegree C) of the fluid (essentially water) inside the can.
-		\item One can was left inside the bucket for 60 seconds and a final temperature of 11.9°C was measured as a result of the conductive heat transfer with the surrounding fluid.
-		\item One can was spun inside the bucket for 60 seconds at about 1000 rounds per minute, and a final temperature of 11\textdegree C was measured as a result of the convective and conductive heat transfer.
+		\item Three coke cans were available as well as a bucket of ice and water (at 0\textcelsius) and a drill to spin the	can inside the bucket.
+		\item One of the cans was used to determine the initial temperature (16\textcelsius) of the fluid (essentially water) inside the can.
+		\item One can was left inside the bucket for 60 seconds and a final temperature of 11.9\textcelsius \ was measured as a result of the conductive heat transfer with the surrounding fluid.
+		\item One can was spun inside the bucket for 60 seconds at about 1000 rounds per minute, and a final temperature of 11\textcelsius \ was measured as a result of the convective and conductive heat transfer.
 	\end{itemize}
 	
 	In the first chapter, convective and conductive processes that are related to the experiment will be described. Those phenomena will then be applied to the problem via a mathematical model, including a discussion of simplifications brought to the problem in order to simplify calculations. Lastly, a comparison between the model and reality followed by a conclusion on mathematical models will be presented.
@@ -104,7 +105,7 @@
 		Convection = Conduction + Advection
 	\end{equation}
 	
-	Seeing this, it is easily to understand that convection is superior than conduction in fluidsin a flux situation. Flow properties have a major impact in heat transfers.
+	Seeing this, it is easily to understand that convection is superior than conduction in fluids in a flux situation. Flow properties have a major impact in heat transfers.
 	
 	As convection depends on the flow (laminar, turbulent,...), we will discuss the equation to use in the next chapter(Mathematical model,chapter~\ref{mm}).
 	
@@ -114,14 +115,50 @@
 	
 	This means that some simplifications of the equations seen before can be made, using the properties of the studied system.
 	
-	\section{Simplifying assumptions}\label{sa}
+	We will first describe general simplifying assumptions for our experiment and explain why we can use them, after what we will go ahead and create two simplified models: one for the non-rotating can and one for the rotating can.
 	
-	\section{Simplified model}\label{sm}
+	\section{General simplifying assumptions}\label{gsa}
+	
+	The first assumption we will consider is that the fluid contained in the can has properties similar to water. Coke is indeed an aqueous solution containing sugar and other ingredients, but at relatively low concentrations.
+	Properties of water can be found in annex~\ref{WTPP} and are extracted from \emph{``Perry’s Chemical Engineers’ Handbook''\cite{properties}}.
+	
+	Another assumption is that the can is a perfect cylinder with an height of $h=116mm$ and a diameter of $d=66mm$. In the reality, the shape of a can is a bit different to support pressure but difference should not be significant in our calculations. The material used for cans is Aluminium.
+	
+	Furthermore, we will consider that all heat exchanges between the can and surrounding ice takes place on de sides of the can and not on it's top or bottom. The total surface of the can is given by:
+	
+	\begin{equation}
+	\begin{gathered}
+		Surface= 2.Surface_{circle} + Surface_{rectangular side} \\
+		\Leftrightarrow S= 2. (\pi . (\frac{d}{2})^2) + 2.\pi . \frac{d}{2}.h \\
+		\Leftrightarrow S= 30,8944 cm^3
+	\end{gathered}
+	\end{equation}
+	
+	Bottom and top circular surfaces have a total surface of $2.Surface_{circle}=2. (\pi . (\frac{d}{2})^2)= 6.8424 cm^3$, this is thus about $22,14\% $ of total surface. Reason why we decided to ignore such a large portion of the can's area is because half of it is not even in contact with ice during the experiment (the system holding the can covers it's top and non rotating can is not totally in ice), reducing the area to consider at about $11\% $ of total exchange area. This can be seen as a still large percentage, but because it is on the bottom of the can and because we are trying to cool down a liquid and cold liquids tend to be more dense than hot liquids, the liquid in contact with the bottom part will be already cooled down liquid, making heat transfer far less efficient there.
+	
+	The last general simplification we will make is to consider the ice surrounding the cans as a continuous ice bloc at 0\textcelsius. This should be correct enough considering that we had a large quantity of melting ice in an isolated box and, because the cans where on the top of the box, water from melting ice was free to flow down, cans where thus in contact with the ice itself.
+	
+	
+	\section{Simplified models}\label{sm}
+	
+	With these four simplifications in mind, we will now build two models, one for the non-rotating can and one for the rotating can.
+	
+	\subsection{Non-rotating can}\label{nrc}
+	
+	\subsection{Rotating can}
 	
 	\chapter[Reality and mathematical model]{Comparison between reality and the mathematical model}\label{rvmm}
 	
 	\chapter{Conclusion}\label{ccl}
 	
+	
+	\appendix
+	
+	\chapter{Water Thermo-Physical Properties}\label{WTPP}
+	
+	These chart can be are extracted from ``Perry’s	Chemical Engineers’ Handbook'', Chapter 2\cite{properties}.
+	
+	\includepdf[pages={-}]{WaterThermo-PhysicalProperties.pdf}
 	
 	\bibliography{biblio}{}
 	\bibliographystyle{plain}
