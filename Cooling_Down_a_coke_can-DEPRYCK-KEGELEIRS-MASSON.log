@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.28)  28 NOV 2015 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.28)  29 NOV 2015 11:40
 entering extended mode
 **Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.tex
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.tex
@@ -1187,13 +1187,13 @@ File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf used on input line 
-161.
+168.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf used on input line 
-161.
+168.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
  [9
 
@@ -1203,31 +1203,31 @@ File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 161.
+t line 168.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 161.
+t line 168.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 161.
+t line 168.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 161.
+t line 168.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 161.
+t line 168.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [10 <./WaterThermo-PhysicalProperties.pdf>]
 <WaterThermo-PhysicalProperties.pdf, id=200, page=2, 597.23125pt x 845.1575pt>
@@ -1235,34 +1235,34 @@ File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 2>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page2 used on inpu
-t line 161.
+t line 168.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 2>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page2 used on inpu
-t line 161.
+t line 168.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 2>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page2 used on inpu
-t line 161.
+t line 168.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [11 <./WaterThermo-PhysicalProperties.pdf>] (Cooling_Down_a_coke_can-DEPRYCK-K
 EGELEIRS-MASSON.bbl) [12
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
 
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MA
 SSON.out' has not changed.
 (rerunfilecheck)             Checksum: D4CD51621CAB1DFB803F377A584663B3;737.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  ) 
 Here is how much of TeX's memory you used:
  18968 strings out of 493698
@@ -1295,7 +1295,7 @@ onts/cm/cmr10.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmr7.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb>
 Output written on Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.pdf (14 page
-s, 1840075 bytes).
+s, 1842560 bytes).
 PDF statistics:
  636 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
