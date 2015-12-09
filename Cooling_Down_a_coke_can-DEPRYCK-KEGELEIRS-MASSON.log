@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.28)  29 NOV 2015 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.28)  9 DEC 2015 17:40
 entering extended mode
 **Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.tex
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.tex
@@ -1118,7 +1118,7 @@ LaTeX Info: Redefining \nameref on input line 45.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-<img/entete.PNG, id=54, 892.08281pt x 262.73157pt>
+<img/entete.PNG, id=58, 892.08281pt x 262.73157pt>
 File: img/entete.PNG Graphic file (type png)
  <use img/entete.PNG>
 Package pdftex.def Info: img/entete.PNG used on input line 48.
@@ -1127,7 +1127,7 @@ Package pdftex.def Info: img/entete.PNG used on input line 48.
 [1
 
 {C:/Users/MISCHIEN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/en
-tete.PNG>] <img/ulbback.jpg, id=66, 2489.3pt x 3521.155pt>
+tete.PNG>] <img/ulbback.jpg, id=70, 2489.3pt x 3521.155pt>
 File: img/ulbback.jpg Graphic file (type jpg)
 
 <use img/ulbback.jpg>
@@ -1162,142 +1162,289 @@ Chapitre 2.
 
 ] [4]
 Chapitre 3.
+<img/cyl.jpg, id=130, 685.8122pt x 601.4972pt>
+File: img/cyl.jpg Graphic file (type jpg)
+ <use img/cyl.jpg>
+Package pdftex.def Info: img/cyl.jpg used on input line 130.
+(pdftex.def)             Requested size: 215.0023pt x 188.57317pt.
+ [5
 
-Overfull \hbox (5.78822pt too wide) in paragraph at lines 137--138
+]
+Overfull \hbox (3.17014pt too wide) in paragraph at lines 144--145
 []\T1/cmr/m/n/10 Bottom and top cir-cu-lar sur-faces have a to-tal sur-face of 
-$\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :Surface[] \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/
-10 :\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 ([])[]) = 6\OML/cmm/m/i
-t/10 :\OT1/cmr/m/n/10 8424\OML/cmm/m/it/10 cm[]$\T1/cmr/m/n/10 ,
+$\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 xSurface[] \OT1/cmr/m/n/10 = 2(\OML/cmm/m/it
+/10 \OT1/cmr/m/n/10 ([])[]) = 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8424\OML/cmm/
+m/it/10 cm[]$\T1/cmr/m/n/10 ,
  []
 
-[5
-
-] [6]
+[6 <./img/cyl.jpg>] [7] [8]
 Chapitre 4.
-[7
+[9
 
 ]
 Chapitre 5.
-[8
+[10
 
 ]
 Annexe A.
-<WaterThermo-PhysicalProperties.pdf, id=145, 597.23125pt x 845.1575pt>
+<WaterThermo-PhysicalProperties.pdf, id=181, 597.23125pt x 845.1575pt>
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf used on input line 
-168.
+227.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf used on input line 
-168.
+227.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [9
+ [11
 
 ]
-<WaterThermo-PhysicalProperties.pdf, id=152, page=1, 597.23125pt x 845.1575pt>
+<WaterThermo-PhysicalProperties.pdf, id=189, page=1, 597.23125pt x 845.1575pt>
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 168.
+t line 227.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 168.
+t line 227.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 168.
+t line 227.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 168.
+t line 227.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 168.
+t line 227.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [10 <./WaterThermo-PhysicalProperties.pdf>]
-<WaterThermo-PhysicalProperties.pdf, id=200, page=2, 597.23125pt x 845.1575pt>
+ [12 <./WaterThermo-PhysicalProperties.pdf>]
+<WaterThermo-PhysicalProperties.pdf, id=237, page=2, 597.23125pt x 845.1575pt>
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 2>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page2 used on inpu
-t line 168.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
-
-<use WaterThermo-PhysicalProperties.pdf, page 2>
-Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page2 used on inpu
-t line 168.
+t line 227.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 2>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page2 used on inpu
-t line 168.
+t line 227.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
- [11 <./WaterThermo-PhysicalProperties.pdf>] (Cooling_Down_a_coke_can-DEPRYCK-K
-EGELEIRS-MASSON.bbl) [12
+File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
+
+<use WaterThermo-PhysicalProperties.pdf, page 2>
+Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page2 used on inpu
+t line 227.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [13 <./WaterThermo-PhysicalProperties.pdf>]
+Annexe B.
+<FormulaSheet.pdf, id=255, 597.23125pt x 845.1575pt>
+File: FormulaSheet.pdf Graphic file (type pdf)
+ <use FormulaSheet.pdf>
+Package pdftex.def Info: FormulaSheet.pdf used on input line 233.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf>
+Package pdftex.def Info: FormulaSheet.pdf used on input line 233.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+ [14
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+<FormulaSheet.pdf, id=262, page=1, 597.23125pt x 845.1575pt>
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 1>
+Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 233.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+ <use FormulaSheet.pdf, page 1>
+Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 1>
+Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+ <use FormulaSheet.pdf, page 1>
+Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 1>
+Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [15 <./FormulaSheet.pdf>]
+<FormulaSheet.pdf, id=461, page=2, 597.23125pt x 845.1575pt>
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 2>
+Package pdftex.def Info: FormulaSheet.pdf, page2 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+ <use FormulaSheet.pdf, page 2>
+Package pdftex.def Info: FormulaSheet.pdf, page2 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 2>
+Package pdftex.def Info: FormulaSheet.pdf, page2 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [16 <./FormulaSheet.pdf>]
+<FormulaSheet.pdf, id=596, page=3, 597.23125pt x 845.1575pt>
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 3>
+Package pdftex.def Info: FormulaSheet.pdf, page3 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+ <use FormulaSheet.pdf, page 3>
+Package pdftex.def Info: FormulaSheet.pdf, page3 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 3>
+Package pdftex.def Info: FormulaSheet.pdf, page3 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [17 <./FormulaSheet.pdf>]
+<FormulaSheet.pdf, id=798, page=4, 597.23125pt x 845.1575pt>
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 4>
+Package pdftex.def Info: FormulaSheet.pdf, page4 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+ <use FormulaSheet.pdf, page 4>
+Package pdftex.def Info: FormulaSheet.pdf, page4 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 4>
+Package pdftex.def Info: FormulaSheet.pdf, page4 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [18 <./FormulaSheet.pdf>]
+<FormulaSheet.pdf, id=1261, page=5, 597.23125pt x 845.1575pt>
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 5>
+Package pdftex.def Info: FormulaSheet.pdf, page5 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+ <use FormulaSheet.pdf, page 5>
+Package pdftex.def Info: FormulaSheet.pdf, page5 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 5>
+Package pdftex.def Info: FormulaSheet.pdf, page5 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [19 <./FormulaSheet.pdf>]
+<FormulaSheet.pdf, id=1382, page=6, 597.23125pt x 845.1575pt>
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 6>
+Package pdftex.def Info: FormulaSheet.pdf, page6 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+ <use FormulaSheet.pdf, page 6>
+Package pdftex.def Info: FormulaSheet.pdf, page6 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 6>
+Package pdftex.def Info: FormulaSheet.pdf, page6 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [20 <./FormulaSheet.pdf>]
+<FormulaSheet.pdf, id=1557, page=7, 597.23125pt x 845.1575pt>
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 7>
+Package pdftex.def Info: FormulaSheet.pdf, page7 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+ <use FormulaSheet.pdf, page 7>
+Package pdftex.def Info: FormulaSheet.pdf, page7 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: FormulaSheet.pdf Graphic file (type pdf)
+
+<use FormulaSheet.pdf, page 7>
+Package pdftex.def Info: FormulaSheet.pdf, page7 used on input line 233.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [21 <./FormulaSheet.pdf>]
+(Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.bbl) [22
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
 
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
 Package rerunfilecheck Info: File `Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MA
 SSON.out' has not changed.
-(rerunfilecheck)             Checksum: D4CD51621CAB1DFB803F377A584663B3;737.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
+(rerunfilecheck)             Checksum: A7E9291A9282F5EBFA9F1809B4F56BB0;788.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
  ) 
 Here is how much of TeX's memory you used:
- 18968 strings out of 493698
- 342259 string characters out of 3141985
- 414789 words of memory out of 3000000
- 21897 multiletter control sequences out of 15000+200000
- 19543 words of font info for 45 fonts, out of 3000000 for 9000
+ 19027 strings out of 493698
+ 343241 string characters out of 3141985
+ 418887 words of memory out of 3000000
+ 21933 multiletter control sequences out of 15000+200000
+ 20216 words of font info for 46 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,18n,56p,850b,788s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,18n,56p,890b,788s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
 00\ecbx1200.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
-appen\ec\dpi600\ecti1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\MISCHIEN\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0800.pk> <C:\Users\MISCHIEN\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\M
-ISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+appen\ec\dpi600\eccc1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\MISCHIEN\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0800.pk> <C:\Users\M
+ISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
 > <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecrm0700.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecbx2074.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\MISCHIEN\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\MI
-SCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk>
+0\tcrm1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\ecrm0700.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\MISCHIEN\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\MI
+SCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>
  <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecrm1728.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecti2488.pk><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr7.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb>
-Output written on Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.pdf (14 page
-s, 1842560 bytes).
+\ecrm1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecrm1728.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk
+\ljfour\jknappen\ec\dpi600\ecti2488.pk><B:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi5.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr5.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr7.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy5.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb>
+Output written on Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.pdf (24 page
+s, 3876471 bytes).
 PDF statistics:
- 636 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2331 PDF objects out of 2487 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

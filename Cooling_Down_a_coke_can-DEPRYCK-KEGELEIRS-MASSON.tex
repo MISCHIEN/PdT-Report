@@ -115,44 +115,103 @@
 	
 	This means that some simplifications of the equations seen before can be made, using the properties of the studied system.
 	
-	We will first describe general simplifying assumptions for our experiment and explain why we can use them, after what we will go ahead and create two simplified models: one for the non-rotating can and one for the rotating can.
+	We will first describe general simplifying assumptions for our experiment and explain why we can use them, after what we will go ahead and create two simplified models: one for the non-spinning can and one for the spinning can.
 	
 	\section{General simplifying assumptions}\label{gsa}
 	
 	The first assumption we will consider is that the fluid contained in the can has properties similar to water. Coke is indeed an aqueous solution containing sugar and other ingredients, but at relatively low concentrations.
 	Properties of water can be found in annex~\ref{WTPP} and are extracted from \emph{``Perry’s Chemical Engineers’ Handbook''\cite{properties}}.
 	
-	Another assumption is that the can is a perfect cylinder with an height of $h=116mm$ and a diameter of $d=66mm$. In the reality, the shape of a can is a bit different to support pressure but difference should not be significant in our calculations. The material used for cans is Aluminium.
+	Another assumption is that the can is a perfect cylinder with an height of $h=116mm$ and a diameter of $d=66mm$\footnote{dimensions are standard ones for European Aluminium $330ml$ cans, those can be found on \hyperref{http://www.webpackaging.com/en/portals/rexam/assets/11059498/spec-alu-202/}{}{}{webpackaging.com}}. In the reality, the shape of a can is a bit different to support pressure but difference should not be significant in our calculations. The material used for cans is Aluminium and since it is extremely thin(less than $1mm$) and has an excellent thermal conductivity ($>200\frac{W}{K.m}$), we will consider it has no influence on heat transfers. We will thus consider a cylinder of water inside water maintained at another temperature and without any matter exchange, as shown in figure~\ref{cyl}.
 	
-	Furthermore, we will consider that all heat exchanges between the can and surrounding ice takes place on de sides of the can and not on it's top or bottom. The total surface of the can is given by:
+	\begin{figure}
+		\label{cyl}
+		\centering
+		\includegraphics[width=.5\textwidth]{img/cyl.jpg}
+		\caption{The red cylinder is hotter water, the blue box is colder water. No matter exchanges, only heat.}
+	\end{figure}
+	
+	Furthermore, we will consider that all heat exchanges between the can and surrounding ice-cold water takes place on de sides of the can and not on it's top or bottom. The total surface of the can is given by:
 	
 	\begin{equation}
 	\begin{gathered}
 		Surface= 2.Surface_{circle} + Surface_{rectangular side} \\
-		\Leftrightarrow S= 2. (\pi . (\frac{d}{2})^2) + 2.\pi . \frac{d}{2}.h \\
-		\Leftrightarrow S= 30,8944 cm^3
+		\Leftrightarrow S= 2 (\pi  (\frac{d}{2})^2) + \pi dh \\
+		\Leftrightarrow S= 30.8944 cm^3
 	\end{gathered}
 	\end{equation}
 	
-	Bottom and top circular surfaces have a total surface of $2.Surface_{circle}=2. (\pi . (\frac{d}{2})^2)= 6.8424 cm^3$, this is thus about $22,14\% $ of total surface. Reason why we decided to ignore such a large portion of the can's area is because half of it is not even in contact with ice during the experiment (the system holding the can covers it's top and non rotating can is not totally in ice), reducing the area to consider at about $11\% $ of total exchange area. This can be seen as a still large percentage, but because it is on the bottom of the can and because we are trying to cool down a liquid and cold liquids tend to be more dense than hot liquids, the liquid in contact with the bottom part will be already cooled down liquid, making heat transfer far less efficient there.
+	Bottom and top circular surfaces have a total surface of $2xSurface_{circle}=2 (\pi  (\frac{d}{2})^2)= 6.8424 cm^3$, this is thus about $22.14\% $ of total surface. Reason why we decided to ignore such a large portion of the can's area is because half of it is not even in contact with ice during the experiment (the system holding the can covers it's top and non-spinning can is not totally in ice), reducing the area to consider at about $11\% $ of total exchange area. This can still be seen as a large percentage, but because it is on the bottom of the can and because we are trying to cool down a liquid and cold fluids tend to be more dense than hot fluid, the liquid in contact with the bottom part will be cooler, making heat transfer far less efficient there.
 	
-	The last general simplification we will make is to consider the ice surrounding the cans as a continuous ice bloc at 0\textcelsius. This should be correct enough considering that we had a large quantity of melting ice in an isolated box and, because the cans where on the top of the box, water from melting ice was free to flow down, cans where thus in contact with the ice itself.
+	The last general simplification we will make is to consider the mix of ice and water surrounding the cans as a continuous layer of water maintained at 0\textcelsius. This should be correct enough considering that we had a large quantity of melting ice in an isolated box and because liquid water is more flexible than ice, the can has a larger surface in contact with molten ice (and thus water) than with ice itself.
 	
 	
 	\section{Simplified models}\label{sm}
 	
-	With these four simplifications in mind, we will now build two models, one for the non-rotating can and one for the rotating can.
+	With these four simplifications in mind, we will now build two models, one for the non-spinning can and one for the spinning can.
 	
-	\subsection{Non-rotating can}\label{nrc}
+	\subsection{Non-spinning can}\label{nrc}
 	
 	Heat transfer processes in presence are conduction and natural convection. Natural convection appears because of the density change of fluid related to temperature: the cooler the fluid, the denser it is. There is no forced convection because there is no flux in the fluid.
 	
-	Data's for the ice gives it a thermal conductivity of $h_{ice}= 2,26 \frac{W}{m.K}$ (with a temperature of $273 K$). For the water in the can, thermal conductivity will be given by natural convection.
+	The convective heat transfer coefficient for natural convection (in the can) is given by:
+	\begin{equation}
+		h_x=Ra^\alpha = cGr^\alpha Pr^\alpha
+	\end{equation}
+	
+	Where $Gr$ is the Grashof Number and $Pr$ the Prandtl number. Prandtl is found in annex~\ref{WTPP}: water being at 16\textcelsius (about $290K$), we have $Pr=7.56$.\\
+	Grashof number is calculated using the following formula:
+	\begin{equation}
+	Gr=\frac{\beta g \Delta T_{ref} x^3}{\nu^2}
+	\end{equation}
+	
+	Where:
+	\begin{itemize}
+		\item $\beta$ is the volume expansion coefficient, given by $\frac{1}{\rho}\frac{\delta\rho}{\delta T}$. Using the tables in annex~\ref{WTPP}, we can approximate $\beta=1.001\times 10^{-3}\frac{\frac{1}{1.000\times 10^{-3}}-\frac{1}{1.001\times 10^{-3}}}{5}=2\times 10^{-4} K^{-1}$.
+		\item $g=9.81\frac{m^2}{s}$ is gravity.
+		\item $\Delta T_{ref}=16-0=16$\textcelsius\ is the difference of temperature between the water inside the can and the ice-cold water outside of it.
+		\item $x=116\times 10^{-3}m$ is the height of the cylinder.
+		\item $\nu=\frac{\mu}{\rho}=\frac{1080\times 10^{-6}}{\frac{1}{1.001\times 10^{-3}}}=1.081\times 10^{-6}\frac{m^2}{s}$ is water's kinematic viscosity.
+	\end{itemize}
+	All values used are from annex~\ref{WTPP}.
 	
 	
+	Rayleigh is thus: 
+	\begin{equation}
+		Ra = GrPr= 7.56\times \frac{1.998\times 10^{-4}\times 9.81\times 16\times (116\times 10^{-3})^3}{(1.081\times 10^{-6})^2}= 3.1669\times 10^{8}
+	\end{equation}
+	Since $Ra<10^9$, we are in a laminar case. We consider that the ice-cold water around the can is at a constant temperature, we will use the formula for ??? given in annex~\ref{FORMU}:
+	\begin{equation}
+		\begin{gathered}
+		Nu=???\\
+		\Leftrightarrow Nu=XXX
+		\end{gathered}	
+	\end{equation}
+	and:
+	\begin{equation}
+		\begin{gathered}
+		Nu=\frac{hd}{k}\\
+		\Leftrightarrow h=\frac{Nu k}{d}\\
+		\Leftrightarrow h=XXX \frac{W}{m^2K}
+		\end{gathered}	
+	\end{equation}
 	
+	Biot number is given by $Bi=XXX$. To simplify the equation, we will use the equations for a Lumped system in the case of sensible heat transfer:
 	
-	\subsection{Rotating can}
+	\begin{equation}
+		\begin{gathered}
+		\rho CV\frac{dT}{dt}=-hS_{tot}(T-T_{ext})\\
+		\Leftrightarrow \frac{hS_{tot}}{\rho CV}dt=\frac{1}{(T_{ext}-T)}dT\\
+		\Leftrightarrow \frac{4h}{\rho Cd}dt=\frac{1}{(T_{ext}-T)}dT\\
+		\Leftrightarrow \frac{4h}{\rho Cd}t=ln(\frac{T_0-T_{ext}}{T_f-T_{ext}})\\
+		\Leftrightarrow e^{\frac{4h}{\rho Cd}t}=\frac{T_0-T_{ext}}{T_f-T_{ext}}\\
+		\Leftrightarrow T_f=T_0+\frac{T_0-T_{ext}}{e^{\frac{4h}{\rho Cd}t}}
+		\end{gathered}
+	\end{equation}
+	
+	This, when we use the parameters of our experiment, would have given $T_f=XXXK=YYY$\textcelsius\ after $t=60s$.
+	
+	\subsection{Spinning can}
 	
 	\chapter[Reality and mathematical model]{Comparison between reality and the mathematical model}\label{rvmm}
 	
@@ -166,6 +225,13 @@
 	These chart can be are extracted from ``Perry’s	Chemical Engineers’ Handbook'', Chapter 2\cite{properties}.
 	
 	\includepdf[pages={-}]{WaterThermo-PhysicalProperties.pdf}
+	
+	\chapter{Formula Sheet}\label{FORMU}
+	
+	The following formula sheet was given and demonstrated at Pr. Parente's course ``MECA-H3001: Fluid mechanics and transfer processes''.
+	
+	\includepdf[pages={-}]{FormulaSheet.pdf}
+	
 	
 	\bibliography{biblio}{}
 	\bibliographystyle{plain}
