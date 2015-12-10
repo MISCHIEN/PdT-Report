@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.28)  10 DEC 2015 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.28)  10 DEC 2015 21:08
 entering extended mode
 **Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.tex
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.tex
@@ -1164,7 +1164,7 @@ Package pdftex.def Info: img/entete.PNG used on input line 50.
 [1
 
 {C:/Users/MISCHIEN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/en
-tete.PNG>] <img/ulbback.jpg, id=78, 2489.3pt x 3521.155pt>
+tete.PNG>] <img/ulbback.jpg, id=77, 2489.3pt x 3521.155pt>
 File: img/ulbback.jpg Graphic file (type jpg)
 
 <use img/ulbback.jpg>
@@ -1456,10 +1456,10 @@ SSON.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
  ) 
 Here is how much of TeX's memory you used:
- 20931 strings out of 493698
- 369653 string characters out of 3141985
+ 20929 strings out of 493698
+ 369630 string characters out of 3141985
  474647 words of memory out of 3000000
- 23794 multiletter control sequences out of 15000+200000
+ 23792 multiletter control sequences out of 15000+200000
  20826 words of font info for 48 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  62i,18n,120p,1033b,1583s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1478,9 +1478,9 @@ X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\MISCHIEN\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\MI
 SCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
  <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecrm1200.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX
+\ecrm1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecbx1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk
+\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX
 \2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\MISCHIEN\AppData
 \Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti2488.pk><B:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><B:/Program File
@@ -1495,9 +1495,9 @@ onts/type1/public/amsfonts/cm/cmr8.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts
 ype1/public/amsfonts/cm/cmsy5.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy7.pfb>
 Output written on Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.pdf (26 page
-s, 3972778 bytes).
+s, 3973655 bytes).
 PDF statistics:
- 2466 PDF objects out of 2487 (max. 8388607)
+ 2469 PDF objects out of 2487 (max. 8388607)
  73 named destinations out of 1000 (max. 500000)
  228 words of extra memory for PDF output out of 10000 (max. 10000000)
 

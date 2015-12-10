@@ -33,10 +33,10 @@
 }
 
 
-\title{\Huge\emph{Cooling down a coke can}\\
+\title{\Huge\emph{Cooling Down a Coke Can}\\
 	\LARGE Experiment study\\
 	\vspace{11pt}
-	\normalsize Fluid Mechanics and Transport Processes}
+	\large Fluid Mechanics and Transport Processes}
 
 \date{December 2015}
 
@@ -66,9 +66,9 @@
 	
 	\chapter{Introduction}\label{intro}
 	
-	This report outlines the physics behind an experiment produced during the MECA-H3001 ``Fluid Mechanics and Transport Processes'' course of the ULB (Université Libre de Bruxelles) on Friday, the sixteenth of October 2015.
+	This report outlines the physics behind an experiment produced during the MECA-H-3001 ``Fluid Mechanics and Transport Processes'' course of the ULB (Université Libre de Bruxelles) on Friday, the sixteenth of October 2015.
 	
-	The experiment can be found by following \hyperref{https://www.youtube.com/watch?v=MSwc_IAPh3E}{}{}{this link}\footnote{\url{https://www.youtube.com/watch?v=MSwc_IAPh3E}} and was described as following:
+	The experiment can be found at \hyperref{https://www.youtube.com/watch?v=MSwc_IAPh3E}{}{}{this address}\footnote{\url{https://www.youtube.com/watch?v=MSwc_IAPh3E}} and was described as following:
 	
 	\begin{itemize}
 		\item Three coke cans were available as well as a bucket of ice and water (at 0\textcelsius) and a drill to spin the can inside the bucket.
@@ -81,11 +81,11 @@
 	
 	\chapter{Heat transfer processes}\label{htp}
 	
-	They are three different ways of transferring heat: conduction, convection and radiation. Due to its nature, radiation can be neglected for this experiment and will thus not be presented here.
+	They are three different ways of transferring heat: conduction, convection and radiation. Due to its nature (heat exchange for two distant bodies at very different temperatures), radiation can be neglected for this experiment and will thus not be presented here.
 	
 	\section{Conduction}\label{cd}
 	
-	Thermal conduction is a heat transfer process without macroscopic movement of matter. It is initiated by a difference of temperature between contiguous bodies (or inside a body). This difference of temperature implies a difference of internal energy : the energy is higher in the warmer area than in the cooler. By diffusion and collisions between the particles which can be molecules in a fluid or conduction electrons in a solid, particles in the warmer area transfer kinetic energy to the other particles, making them moving or vibrating faster. This creates a heat flow from the warmer area to the cooler until the system reaches thermal equilibrium. Furthermore, conduction is an irreversible process.
+	Thermal conduction is a heat transfer process without macroscopic movement of matter. It is initiated by a difference of temperature between contiguous bodies (or inside a body). This difference of temperature implies a difference of internal energy : the energy is higher in the warmer area than in the cooler. By diffusion and collisions between the particles, which can be molecules in a fluid or conduction electrons in a solid, particles in the warmer area transfer kinetic energy to the other particles, making them moving or vibrating faster. This creates a heat flow from the warmer area to the cooler until the system reaches thermal equilibrium. Furthermore, conduction is an irreversible process.
 	
 	Conduction is described by the following general equation, which is demonstrated in Professor Jean-Marie Buchlin's course\cite{Buchlin}, Chapter 13.
 	
@@ -106,9 +106,9 @@
 		Convection = Conduction + Advection
 	\end{equation}
 	
-	Seeing this, it is easily to understand that convection is superior than conduction in fluids in a flux situation. Flow properties have a major impact in heat transfers.
+	Seeing this, it is easy to understand that convection is superior than conduction in fluids in a flux situation. Flow properties have a major impact in heat transfers.
 	
-	As convection depends on the flow (laminar, turbulent,...), we will discuss the equation to use in the next chapter(Mathematical model,chapter~\ref{mm}).
+	As convection depends on the flow (laminar, turbulent,...), we will discuss the equation to use in the next chapter(Mathematical model, chapter~\ref{mm}).
 	
 	\chapter{Mathematical model}\label{mm}
 	
@@ -144,7 +144,7 @@
 	
 	Bottom and top circular surfaces have a total surface of $2xSurface_{circle}=2 (\pi  (\frac{d}{2})^2)= 6.8424 cm^3$, this is thus about $22.14\% $ of total surface. Reason why we decided to ignore such a large portion of the can's area is because half of it is not even in contact with ice during the experiment (the system holding the can covers it's top and non-spinning can is not totally in ice), reducing the area to consider at about $11\% $ of total exchange area. This can still be seen as a large percentage, but because it is on the bottom of the can and because we are trying to cool down a liquid and cold fluids tend to be more dense than hot fluid, the liquid in contact with the bottom part will be cooler, making heat transfer far less efficient there.
 	
-	The last general simplification we will make is to consider the mix of ice and water surrounding the cans as a continuous layer of water maintained at 0\textcelsius. This should be correct enough considering that we had a large quantity of melting ice in an isolated box and because liquid water is more flexible than ice, the can has a larger surface in contact with molten ice (and thus water) than with ice itself.
+	The last general simplification we will make is to consider the mix of ice and water surrounding the cans as a continuous layer of water maintained at 0\textcelsius. This should be correct enough considering that we had a large quantity of melting ice in an isolated box; and because liquid water is more flexible than ice, the can has a larger surface in contact with molten ice (and thus water) than with ice itself.
 	
 	
 	\section{Simplified models}\label{sm}
@@ -199,7 +199,7 @@
 		\end{gathered}	
 	\end{equation}
 	
-	Biot number is given by $Bi=\frac{hL}{k}=\frac{hd}{2k}=23.8347 > 1$! This indicates that \emph{we should not considerate our system as a Lumped system}, the temperature inside the can is not homogeneous! But, as our temperature is measured manually by putting a thermometer inside the can, and because the size of the thermometer is not negligible compared to the small radius of the can; we will simplify the system by using the equations for a Lumped system in the case of sensible heat transfer:
+	Biot number is given by $Bi=\frac{hL}{k}=\frac{hd}{2k}=23.8347 > 1$. This indicates that \emph{we should not considerate our system as a Lumped system}, the temperature inside the can is not homogeneous. But, as our temperature is measured manually by putting a thermometer inside the can, and because the size of the thermometer is not negligible compared to the small radius of the can; we will simplify the system by using the equations for a Lumped system in the case of sensible heat transfer:
 	
 	\begin{equation}
 		\begin{gathered}
