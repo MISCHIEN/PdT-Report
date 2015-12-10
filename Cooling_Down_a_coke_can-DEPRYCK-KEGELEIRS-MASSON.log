@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.28)  10 DEC 2015 19:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.28)  10 DEC 2015 19:57
 entering extended mode
 **Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.tex
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.tex
@@ -708,22 +708,58 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count122
 \AM@templatesizebox=\box29
 )
-("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+(C:\Users\MISCHIEN\AppData\Roaming\MiKTeX\2.9\tex\latex\matlab-prettifier\matla
+b-prettifier.sty
+Package: matlab-prettifier 2014/06/19 v0.3 A package for prettyprinting Matlab 
+source code
+
+(C:\Users\MISCHIEN\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count123
+\lst@gtempboxa=\box30
+\lst@token=\toks24
+\lst@length=\count124
+\lst@currlwidth=\dimen131
+\lst@column=\count125
+\lst@pos=\count126
+\lst@lostspace=\dimen132
+\lst@width=\dimen133
+\lst@newlines=\count127
+\lst@lineno=\count128
+\lst@maxwidth=\dimen134
+
+(C:\Users\MISCHIEN\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count129
+\lst@skipnumbers=\count130
+\lst@framebox=\box31
+)
+(C:\Users\MISCHIEN\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+\netBracketCount@mlpr=\count131
+\blkLvl@mlpr=\count132
+\blkLvlAtClassdef@mlpr=\count133
+\emHeight@mlpr=\skip56
+\jayDepth@mlpr=\skip57
+\sectionRuleOffset@mlpr=\skip58
+\toks@mlpr=\toks25
+) ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen131
-\extrarowheight=\dimen132
-\NC@list=\toks24
-\extratabsurround=\skip56
-\backup@length=\skip57
+\col@sep=\dimen135
+\extrarowheight=\dimen136
+\NC@list=\toks26
+\extratabsurround=\skip59
+\backup@length=\skip60
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen133
+\bigstrutjot=\dimen137
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\makecell\makecell.sty"
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen134
-\c@nlinenum=\count123
-\TeXr@lab=\toks25
+\rotheadsize=\dimen138
+\c@nlinenum=\count134
+\TeXr@lab=\toks27
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\background\background.sty"
 Package: background 2014/03/04 v2.1 background material
@@ -733,10 +769,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
 )
-\XKV@depth=\count124
+\XKV@depth=\count135
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
@@ -744,15 +780,15 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
 x"
-\pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen135
-\pgfutil@tempdimb=\dimen136
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen139
+\pgfutil@tempdimb=\dimen140
 
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-li
 sts.tex"))
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
 "
-\pgfutil@abb=\box30
+\pgfutil@abb=\box32
  ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -767,30 +803,30 @@ Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
  ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
 "
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
 
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
 ode.tex"
-\pgfkeys@tmptoks=\toks31
+\pgfkeys@tmptoks=\toks33
 ))
-\pgf@x=\dimen137
-\pgf@y=\dimen138
-\pgf@xa=\dimen139
-\pgf@ya=\dimen140
-\pgf@xb=\dimen141
-\pgf@yb=\dimen142
-\pgf@xc=\dimen143
-\pgf@yc=\dimen144
+\pgf@x=\dimen141
+\pgf@y=\dimen142
+\pgf@xa=\dimen143
+\pgf@ya=\dimen144
+\pgf@xb=\dimen145
+\pgf@yb=\dimen146
+\pgf@xc=\dimen147
+\pgf@yc=\dimen148
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count125
-\c@pgf@countb=\count126
-\c@pgf@countc=\count127
-\c@pgf@countd=\count128
-\t@pgf@toka=\toks32
-\t@pgf@tokb=\toks33
-\t@pgf@tokc=\toks34
+\c@pgf@counta=\count136
+\c@pgf@countb=\count137
+\c@pgf@countc=\count138
+\c@pgf@countd=\count139
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
 
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -808,8 +844,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
 code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count129
-\pgfsyssoftpath@bigbuffer@items=\count130
+\pgfsyssoftpath@smallbuffer@items=\count140
+\pgfsyssoftpath@bigbuffer@items=\count141
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
 code.tex"
@@ -823,12 +859,12 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
 "
-\pgfmath@dimen=\dimen145
-\pgfmath@count=\count131
-\pgfmath@box=\box31
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
+\pgfmath@dimen=\dimen149
+\pgfmath@count=\count142
+\pgfmath@box=\box33
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
 tex"
@@ -849,57 +885,57 @@ code.tex")
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
 erarithmetics.code.tex")))
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count132
+\c@pgfmathroundto@lastzeros=\count143
 ))
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
 de.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen146
-\pgf@picmaxx=\dimen147
-\pgf@picminy=\dimen148
-\pgf@picmaxy=\dimen149
-\pgf@pathminx=\dimen150
-\pgf@pathmaxx=\dimen151
-\pgf@pathminy=\dimen152
-\pgf@pathmaxy=\dimen153
-\pgf@xx=\dimen154
-\pgf@xy=\dimen155
-\pgf@yx=\dimen156
-\pgf@yy=\dimen157
-\pgf@zx=\dimen158
-\pgf@zy=\dimen159
+\pgf@picminx=\dimen150
+\pgf@picmaxx=\dimen151
+\pgf@picminy=\dimen152
+\pgf@picmaxy=\dimen153
+\pgf@pathminx=\dimen154
+\pgf@pathmaxx=\dimen155
+\pgf@pathminy=\dimen156
+\pgf@pathmaxy=\dimen157
+\pgf@xx=\dimen158
+\pgf@xy=\dimen159
+\pgf@yx=\dimen160
+\pgf@yy=\dimen161
+\pgf@zx=\dimen162
+\pgf@zy=\dimen163
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
 ruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen160
-\pgf@path@lasty=\dimen161
+\pgf@path@lastx=\dimen164
+\pgf@path@lasty=\dimen165
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
 .code.tex"
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen162
-\pgf@shorten@start@additional=\dimen163
+\pgf@shorten@end@additional=\dimen166
+\pgf@shorten@start@additional=\dimen167
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
 de.tex"
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
-\pgfpic=\box32
-\pgf@hbox=\box33
-\pgf@layerbox@main=\box34
-\pgf@picture@serial@count=\count133
+\pgfpic=\box34
+\pgf@hbox=\box35
+\pgf@layerbox@main=\box36
+\pgf@picture@serial@count=\count144
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
 ate.code.tex"
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen164
+\pgflinewidth=\dimen168
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
 ations.code.tex"
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen165
-\pgf@pt@y=\dimen166
-\pgf@pt@temp=\dimen167
+\pgf@pt@x=\dimen169
+\pgf@pt@y=\dimen170
+\pgf@pt@temp=\dimen171
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
 e.tex"
@@ -916,13 +952,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
 de.tex"
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen168
+\pgfarrowsep=\dimen172
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
 e.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen169
-\pgf@sys@shading@range@num=\count134
+\pgf@max=\dimen173
+\pgf@sys@shading@range@num=\count145
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
 e.tex"
@@ -931,7 +967,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
 code.tex"
 File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
-\pgfexternal@startupbox=\box35
+\pgfexternal@startupbox=\box37
 ))
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
 de.tex"
@@ -948,7 +984,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.cod
 e.tex"
 File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
-\pgfnodeparttextbox=\box36
+\pgfnodeparttextbox=\box38
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.
 tex"
@@ -957,8 +993,8 @@ File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
 -0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen170
-\pgf@nodesepend=\dimen171
+\pgf@nodesepstart=\dimen174
+\pgf@nodesepend=\dimen175
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
 -1-18.sty"
@@ -973,10 +1009,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
-\pgffor@iter=\dimen172
-\pgffor@skip=\dimen173
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
+\pgffor@iter=\dimen176
+\pgffor@skip=\dimen177
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 ))
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
 e.tex"
@@ -985,32 +1021,32 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
 dlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count135
-\pgfplotmarksize=\dimen174
+\pgf@plot@mark@count=\count146
+\pgfplotmarksize=\dimen178
 )
-\tikz@lastx=\dimen175
-\tikz@lasty=\dimen176
-\tikz@lastxsaved=\dimen177
-\tikz@lastysaved=\dimen178
-\tikzleveldistance=\dimen179
-\tikzsiblingdistance=\dimen180
-\tikz@figbox=\box37
-\tikz@figbox@bg=\box38
-\tikz@tempbox=\box39
-\tikz@tempbox@bg=\box40
-\tikztreelevel=\count136
-\tikznumberofchildren=\count137
-\tikznumberofcurrentchild=\count138
-\tikz@fig@count=\count139
+\tikz@lastx=\dimen179
+\tikz@lasty=\dimen180
+\tikz@lastxsaved=\dimen181
+\tikz@lastysaved=\dimen182
+\tikzleveldistance=\dimen183
+\tikzsiblingdistance=\dimen184
+\tikz@figbox=\box39
+\tikz@figbox@bg=\box40
+\tikz@tempbox=\box41
+\tikz@tempbox@bg=\box42
+\tikztreelevel=\count147
+\tikznumberofchildren=\count148
+\tikznumberofcurrentchild=\count149
+\tikz@fig@count=\count150
 
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
 e.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count140
-\pgfmatrixcurrentcolumn=\count141
-\pgf@matrix@numberofcolumns=\count142
+\pgfmatrixcurrentrow=\count151
+\pgfmatrixcurrentcolumn=\count152
+\pgf@matrix@numberofcolumns=\count153
 )
-\tikz@expandcount=\count143
+\tikz@expandcount=\count154
 
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
 s\tikzlibrarytopaths.code.tex"
@@ -1021,63 +1057,63 @@ Package: everypage 2007/06/20 1.1 Hooks to run on every page
 )
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks40
-\AP@partial=\box41
-\AP@footins=\box42
+\AP@output=\toks42
+\AP@partial=\box43
+\AP@footins=\box44
 ))
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
 
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Info: Redefining \degres on input line 45.
-LaTeX Info: Redefining \dots on input line 45.
-LaTeX Info: Redefining \up on input line 45.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Info: Redefining \degres on input line 47.
+LaTeX Info: Redefining \dots on input line 47.
+LaTeX Info: Redefining \up on input line 47.
 
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count144
-\scratchdimen=\dimen181
-\scratchbox=\box43
-\nofMPsegments=\count145
-\nofMParguments=\count146
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count147
-\MPscratchDim=\dimen182
-\MPnumerator=\count148
-\makeMPintoPDFobject=\count149
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count155
+\scratchdimen=\dimen185
+\scratchbox=\box45
+\nofMPsegments=\count156
+\nofMParguments=\count157
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count158
+\MPscratchDim=\dimen186
+\MPnumerator=\count159
+\makeMPintoPDFobject=\count160
+\everyMPtoPDFconversion=\toks44
 )
-\AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring OFF on input line 45.
+\AtBeginShipoutBox=\box46
+Package hyperref Info: Link coloring OFF on input line 47.
  ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count150
+\c@section@level=\count161
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \nameref on input line 47.
 
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.out)
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.out)
@@ -1117,27 +1153,28 @@ LaTeX Info: Redefining \nameref on input line 45.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\c@lstlisting=\count162
 ABD: EveryShipout initializing macros
-<img/entete.PNG, id=58, 892.08281pt x 262.73157pt>
+<img/entete.PNG, id=66, 892.08281pt x 262.73157pt>
 File: img/entete.PNG Graphic file (type png)
  <use img/entete.PNG>
-Package pdftex.def Info: img/entete.PNG used on input line 48.
+Package pdftex.def Info: img/entete.PNG used on input line 50.
 (pdftex.def)             Requested size: 426.79134pt x 125.69678pt.
 
 [1
 
 {C:/Users/MISCHIEN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/en
-tete.PNG>] <img/ulbback.jpg, id=70, 2489.3pt x 3521.155pt>
+tete.PNG>] <img/ulbback.jpg, id=78, 2489.3pt x 3521.155pt>
 File: img/ulbback.jpg Graphic file (type jpg)
 
 <use img/ulbback.jpg>
-Package pdftex.def Info: img/ulbback.jpg used on input line 59.
+Package pdftex.def Info: img/ulbback.jpg used on input line 61.
 (pdftex.def)             Requested size: 614.27095pt x 794.96585pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 	\end{abstract}
+l.61 	\end{abstract}
                      [1 <./img/ulbback.jpg>]
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.toc)
 \tf@toc=\write5
@@ -1145,13 +1182,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.65 	\chapter
+l.67 	\chapter
               {Introduction}\label{intro} [1
 
 
 ]
 Chapitre 1.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 69.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 71.
 ("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [2
@@ -1162,26 +1199,26 @@ Chapitre 2.
 
 ] [4]
 Chapitre 3.
-<img/cyl.jpg, id=130, 685.8122pt x 601.4972pt>
+<img/cyl.jpg, id=140, 685.8122pt x 601.4972pt>
 File: img/cyl.jpg Graphic file (type jpg)
  <use img/cyl.jpg>
-Package pdftex.def Info: img/cyl.jpg used on input line 129.
+Package pdftex.def Info: img/cyl.jpg used on input line 131.
 (pdftex.def)             Requested size: 215.0023pt x 188.57317pt.
  [5
 
 ]
-Overfull \hbox (3.17014pt too wide) in paragraph at lines 143--144
+Overfull \hbox (3.17014pt too wide) in paragraph at lines 145--146
 []\T1/cmr/m/n/10 Bottom and top cir-cu-lar sur-faces have a to-tal sur-face of 
 $\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 xSurface[] \OT1/cmr/m/n/10 = 2(\OML/cmm/m/it
 /10 \OT1/cmr/m/n/10 ([])[]) = 6\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8424\OML/cmm/
 m/it/10 cm[]$\T1/cmr/m/n/10 ,
  []
 
-[6 <./img/cyl.jpg>] [7] <img/NSg.jpg, id=173, 1928.20375pt x 919.435pt>
+[6 <./img/cyl.jpg>] [7] <img/NSg.jpg, id=184, 1928.20375pt x 919.435pt>
 File: img/NSg.jpg Graphic file (type jpg)
 
 <use img/NSg.jpg>
-Package pdftex.def Info: img/NSg.jpg used on input line 229.
+Package pdftex.def Info: img/NSg.jpg used on input line 232.
 (pdftex.def)             Requested size: 430.00462pt x 205.04012pt.
  [8] [9 <./img/NSg.jpg>]
 Chapitre 4.
@@ -1193,264 +1230,274 @@ Chapitre 5.
 
 ]
 Annexe A.
-<WaterThermo-PhysicalProperties.pdf, id=194, 597.23125pt x 845.1575pt>
+<WaterThermo-PhysicalProperties.pdf, id=205, 597.23125pt x 845.1575pt>
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf used on input line 
-247.
+250.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf used on input line 
-247.
+250.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
  [12
 
 ]
-<WaterThermo-PhysicalProperties.pdf, id=201, page=1, 597.23125pt x 845.1575pt>
+<WaterThermo-PhysicalProperties.pdf, id=212, page=1, 597.23125pt x 845.1575pt>
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 247.
+t line 250.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 247.
+t line 250.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 247.
+t line 250.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 247.
+t line 250.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 1>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page1 used on inpu
-t line 247.
+t line 250.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [13 <./WaterThermo-PhysicalProperties.pdf>]
-<WaterThermo-PhysicalProperties.pdf, id=249, page=2, 597.23125pt x 845.1575pt>
+<WaterThermo-PhysicalProperties.pdf, id=260, page=2, 597.23125pt x 845.1575pt>
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 2>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page2 used on inpu
-t line 247.
+t line 250.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 2>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page2 used on inpu
-t line 247.
+t line 250.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: WaterThermo-PhysicalProperties.pdf Graphic file (type pdf)
 
 <use WaterThermo-PhysicalProperties.pdf, page 2>
 Package pdftex.def Info: WaterThermo-PhysicalProperties.pdf, page2 used on inpu
-t line 247.
+t line 250.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [14 <./WaterThermo-PhysicalProperties.pdf>]
 Annexe B.
-<FormulaSheet.pdf, id=267, 597.23125pt x 845.1575pt>
+<FormulaSheet.pdf, id=278, 597.23125pt x 845.1575pt>
 File: FormulaSheet.pdf Graphic file (type pdf)
  <use FormulaSheet.pdf>
-Package pdftex.def Info: FormulaSheet.pdf used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf used on input line 256.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf>
-Package pdftex.def Info: FormulaSheet.pdf used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf used on input line 256.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
  [15
 
 ]
-<FormulaSheet.pdf, id=274, page=1, 597.23125pt x 845.1575pt>
+<FormulaSheet.pdf, id=285, page=1, 597.23125pt x 845.1575pt>
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 1>
-Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 256.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
  <use FormulaSheet.pdf, page 1>
-Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 1>
-Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
  <use FormulaSheet.pdf, page 1>
-Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 1>
-Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page1 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [16 <./FormulaSheet.pdf>]
-<FormulaSheet.pdf, id=473, page=2, 597.23125pt x 845.1575pt>
+<FormulaSheet.pdf, id=484, page=2, 597.23125pt x 845.1575pt>
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 2>
-Package pdftex.def Info: FormulaSheet.pdf, page2 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page2 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
  <use FormulaSheet.pdf, page 2>
-Package pdftex.def Info: FormulaSheet.pdf, page2 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page2 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 2>
-Package pdftex.def Info: FormulaSheet.pdf, page2 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page2 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [17 <./FormulaSheet.pdf>]
-<FormulaSheet.pdf, id=609, page=3, 597.23125pt x 845.1575pt>
+<FormulaSheet.pdf, id=620, page=3, 597.23125pt x 845.1575pt>
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 3>
-Package pdftex.def Info: FormulaSheet.pdf, page3 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page3 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
  <use FormulaSheet.pdf, page 3>
-Package pdftex.def Info: FormulaSheet.pdf, page3 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page3 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 3>
-Package pdftex.def Info: FormulaSheet.pdf, page3 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page3 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [18 <./FormulaSheet.pdf>]
-<FormulaSheet.pdf, id=810, page=4, 597.23125pt x 845.1575pt>
+<FormulaSheet.pdf, id=821, page=4, 597.23125pt x 845.1575pt>
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 4>
-Package pdftex.def Info: FormulaSheet.pdf, page4 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page4 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
  <use FormulaSheet.pdf, page 4>
-Package pdftex.def Info: FormulaSheet.pdf, page4 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page4 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 4>
-Package pdftex.def Info: FormulaSheet.pdf, page4 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page4 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [19 <./FormulaSheet.pdf>]
-<FormulaSheet.pdf, id=1273, page=5, 597.23125pt x 845.1575pt>
+<FormulaSheet.pdf, id=1284, page=5, 597.23125pt x 845.1575pt>
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 5>
-Package pdftex.def Info: FormulaSheet.pdf, page5 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page5 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
  <use FormulaSheet.pdf, page 5>
-Package pdftex.def Info: FormulaSheet.pdf, page5 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page5 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 5>
-Package pdftex.def Info: FormulaSheet.pdf, page5 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page5 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [20 <./FormulaSheet.pdf>]
-<FormulaSheet.pdf, id=1394, page=6, 597.23125pt x 845.1575pt>
+<FormulaSheet.pdf, id=1405, page=6, 597.23125pt x 845.1575pt>
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 6>
-Package pdftex.def Info: FormulaSheet.pdf, page6 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page6 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
  <use FormulaSheet.pdf, page 6>
-Package pdftex.def Info: FormulaSheet.pdf, page6 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page6 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 6>
-Package pdftex.def Info: FormulaSheet.pdf, page6 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page6 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [21 <./FormulaSheet.pdf>]
-<FormulaSheet.pdf, id=1569, page=7, 597.23125pt x 845.1575pt>
+<FormulaSheet.pdf, id=1580, page=7, 597.23125pt x 845.1575pt>
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 7>
-Package pdftex.def Info: FormulaSheet.pdf, page7 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page7 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
  <use FormulaSheet.pdf, page 7>
-Package pdftex.def Info: FormulaSheet.pdf, page7 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page7 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
 File: FormulaSheet.pdf Graphic file (type pdf)
 
 <use FormulaSheet.pdf, page 7>
-Package pdftex.def Info: FormulaSheet.pdf, page7 used on input line 253.
+Package pdftex.def Info: FormulaSheet.pdf, page7 used on input line 256.
 (pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
  [22 <./FormulaSheet.pdf>]
-(Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.bbl) [23
+Annexe C.
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 273
+.
+("B:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd"
+File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+(Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.bbl [23
+
+]) [24
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
 
 (Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
 Package rerunfilecheck Info: File `Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MA
 SSON.out' has not changed.
-(rerunfilecheck)             Checksum: A7E9291A9282F5EBFA9F1809B4F56BB0;788.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
+(rerunfilecheck)             Checksum: B63BAF05B17890C70065E6F2FF98A972;898.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
  ) 
 Here is how much of TeX's memory you used:
- 19040 strings out of 493698
- 343387 string characters out of 3141985
- 417962 words of memory out of 3000000
- 21942 multiletter control sequences out of 15000+200000
- 20216 words of font info for 46 fonts, out of 3000000 for 9000
+ 20931 strings out of 493698
+ 369653 string characters out of 3141985
+ 474647 words of memory out of 3000000
+ 23794 multiletter control sequences out of 15000+200000
+ 20826 words of font info for 48 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,18n,56p,1033b,788s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,18n,120p,1033b,1583s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
-00\ecbx1200.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
-appen\ec\dpi600\eccc1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\MISCHIEN\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0800.pk> <C:\Users\M
-ISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
+00\tctt1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ectt1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\MISCHIEN\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\MISCHIEN\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\M
+ISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 > <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\tcrm1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecrm0700.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\MISCHIEN\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\MI
-SCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>
+0\ectt0800.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\ecrm0800.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\tcrm1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\MISCHIEN\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\MI
+SCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
  <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecrm1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecrm1728.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\jknappen\ec\dpi600\ecti2488.pk><B:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi5.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr5.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr7.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy5.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7
-.pfb>
-Output written on Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.pdf (25 page
-s, 3949133 bytes).
+\ecbx1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecrm1200.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk
+\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\MISCHIEN\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti2488.pk><B:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><B:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><B:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><B:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><B:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><B:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><B:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><B:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy5.pfb><B:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Cooling_Down_a_coke_can-DEPRYCK-KEGELEIRS-MASSON.pdf (26 page
+s, 3972778 bytes).
 PDF statistics:
- 2371 PDF objects out of 2487 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2466 PDF objects out of 2487 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 

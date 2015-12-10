@@ -10,6 +10,8 @@
 \usepackage{geometry}
 \usepackage{pdfpages}
 
+\usepackage{matlab-prettifier}
+
 \usepackage{array,multirow,makecell}
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
@@ -220,6 +222,7 @@
 	
 	Those corrections, when injected in our model, give us $T_f=284.68K=11.53$\textcelsius\ after $t=60s$. This value seems acceptable, considering the simplifications made on the system. The error compared to the experimental results is about $3.11$\textdiscount, and we have to take in account the fact that the temperature measurement made during the experiment where not immediate and that the thermometer itself was warm.
 	
+	The code used for this part of the model can be found in annex~\ref{codeNS}
 	
 	
 	Graph~\ref{NSg} gives the evolution of temperature($K$) with time($s$) for our last model with enhanced approximations of Prandtl and $\beta$.
@@ -251,6 +254,29 @@
 	The following formula sheet was given and demonstrated at Pr. Parente's course ``MECA-H3001: Fluid mechanics and transfer processes''.
 	
 	\includepdf[pages={-}]{FormulaSheet.pdf}
+	
+	\chapter{Codes}
+	
+	The following codes where used to calculate our models and obtain the different graphs. The reader should be advised this code is only usable for this work and should not be reused as it takes in account parameters and simplifying assumptions made for this particular experiment.
+	
+	\section{Non-spinning model}\label{codeNS}
+	
+	\begin{lstlisting}[style=Matlab-editor]
+	t = linspace(0,120,1210);
+	Pr=8.77
+	beta=1.056*10^(-4)
+	Ra=Pr*(beta*9.81*16*(.066)^(3))/(1.081*10^(-6))^2
+	Nu=0.22*(Pr*Ra/(0.2+Pr))^(0.28) *(0.116/0.033)^(-1/4)
+	h=Nu*0.598/.033
+	T60=(16./(exp((4*h*60)/(1000*4184*.066))))
+	Tf=273.15 +(16./(exp((4*h*t)/(1000*4184*.066))));
+	plot(t,Tf,60,T60+273.15,'*')
+	strValues = num2str([60 T60+273.15]);
+	text(60,T60+273.15,strcat('(',strValues,')'),'VerticalAlignment','bottom');
+	title('Temperature(K) VS Time(s)')
+	xlabel('Time(s)')
+	ylabel('Temperature (K)')
+	\end{lstlisting}
 	
 	
 	\bibliography{biblio}{}
