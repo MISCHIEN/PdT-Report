@@ -7,8 +7,8 @@
 \contentsline {section}{\numberline {3.1}General simplifying assumptions}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}Simplified models}{6}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Non-spinning can}{7}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Spinning can}{8}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}Reality and mathematical model}{9}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclusion}{10}{chapter.5}
-\contentsline {chapter}{\numberline {A}Water Thermo-Physical Properties}{11}{appendix.A}
-\contentsline {chapter}{\numberline {B}Formula Sheet}{14}{appendix.B}
+\contentsline {subsection}{\numberline {3.2.2}Spinning can}{9}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}Reality and mathematical model}{10}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusion}{11}{chapter.5}
+\contentsline {chapter}{\numberline {A}Water Thermo-Physical Properties}{12}{appendix.A}
+\contentsline {chapter}{\numberline {B}Formula Sheet}{15}{appendix.B}
