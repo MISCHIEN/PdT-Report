@@ -60,7 +60,6 @@
 	
 	\clearpage
 	
-	
 	\tableofcontents
 	
 	\chapter{Introduction}\label{intro}
@@ -160,9 +159,9 @@
 	\end{equation}
 	
 	Where $Gr$ is the Grashof Number and $Pr$ the Prandtl number. Prandtl is found in annex~\ref{WTPP}: water being at 16\textcelsius (about $290K$), we have $Pr=7.56$.\\
-	Grashof number is calculated using the following formula:
+	Grashof number is calculated using the following formula (taken from annex~\ref{FORMU}):
 	\begin{equation}
-	Gr=\frac{\beta g \Delta T_{ref} x^3}{\nu^2}
+	Gr=\frac{\beta g \Delta T_{ref} d^3}{\nu^2}
 	\end{equation}
 	
 	Where:
@@ -170,7 +169,7 @@
 		\item $\beta$ is the volume expansion coefficient, given by $\frac{1}{\rho}\frac{\delta\rho}{\delta T}$. Using the tables in annex~\ref{WTPP}, we can approximate $\beta=1.001\times 10^{-3}\frac{\frac{1}{1.000\times 10^{-3}}-\frac{1}{1.001\times 10^{-3}}}{5}=2\times 10^{-4} K^{-1}$.
 		\item $g=9.81\frac{m^2}{s}$ is gravity.
 		\item $\Delta T_{ref}=16-0=16$\textcelsius\ is the difference of temperature between the water inside the can and the ice-cold water outside of it.
-		\item $x=116\times 10^{-3}m$ is the height of the cylinder.
+		\item $d=33\times 10^{-3}m$ is the diameter of the cylinder.
 		\item $\nu=\frac{\mu}{\rho}=\frac{1080\times 10^{-6}}{\frac{1}{1.001\times 10^{-3}}}=1.081\times 10^{-6}\frac{m^2}{s}$ is water's kinematic viscosity.
 	\end{itemize}
 	All values used are from annex~\ref{WTPP}.
@@ -178,25 +177,27 @@
 	
 	Rayleigh is thus: 
 	\begin{equation}
-		Ra = GrPr= 7.56\times \frac{1.998\times 10^{-4}\times 9.81\times 16\times (116\times 10^{-3})^3}{(1.081\times 10^{-6})^2}= 3.1669\times 10^{8}
+		Ra = GrPr= 7.56\times \frac{1.998\times 10^{-4}\times 9.81\times 16\times (66\times 10^{-3})^3}{(1.081\times 10^{-6})^2}= 5.8329\times 10^{7}
 	\end{equation}
-	Since $Ra<10^9$, we are in a laminar case. We consider that the ice-cold water around the can is at a constant temperature, we will use the formula for ??? given in annex~\ref{FORMU}:
+	Since $Ra<10^9$, we are in a laminar case. We consider that the ice-cold water around the can is at a constant temperature. We now need to determine which equation to use for Nusselt number.
+	
+	The easiest approximation is to describe the cylinder as a rectangular enclosure, with H (the height of the enclosure) equal to $h=116mm$ and L (the characteristic length of the enclosure) equal to $\frac{d}{2}=33mm$. This gives us an H on L ratio of $\frac{H}{L}=3.352$. We will thus use equation 9-53 at page 555 of ``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}, chapter 9-5:
 	\begin{equation}
 		\begin{gathered}
-		Nu=???\\
-		\Leftrightarrow Nu=XXX
+		Nu=0.22(\frac{Pr}{0.2+Pr}Ra)^{0.28}(\frac{H}{L})^{-.03}\\
+		\Leftrightarrow Nu=2.2367\times 10^{1}
 		\end{gathered}	
 	\end{equation}
 	and:
 	\begin{equation}
 		\begin{gathered}
-		Nu=\frac{hd}{k}\\
-		\Leftrightarrow h=\frac{Nu k}{d}\\
-		\Leftrightarrow h=XXX \frac{W}{m^2K}
+		Nu=\frac{hL}{k}\\
+		\Leftrightarrow h=\frac{Nu k}{L}=\frac{2Nu k}{d}\\
+		\Leftrightarrow h=4.0531\times 10^2 \frac{W}{m^2K}
 		\end{gathered}	
 	\end{equation}
 	
-	Biot number is given by $Bi=XXX$. To simplify the equation, we will use the equations for a Lumped system in the case of sensible heat transfer:
+	Biot number is given by $Bi=\frac{hL}{k}=\frac{hd}{2k}=2.2367>1$! This indicates that \emph{we should not considerate our system as a Lumped system}, the temperature inside the can is not homogeneous.But, as our temperature is measured manually by putting a thermometer inside the can, and because the size of the thermometer is not negligible compared to the small radius of the can; we will simplify the system by using the equations for a Lumped system in the case of sensible heat transfer:
 	
 	\begin{equation}
 		\begin{gathered}
@@ -205,11 +206,18 @@
 		\Leftrightarrow \frac{4h}{\rho Cd}dt=\frac{1}{(T_{ext}-T)}dT\\
 		\Leftrightarrow \frac{4h}{\rho Cd}t=ln(\frac{T_0-T_{ext}}{T_f-T_{ext}})\\
 		\Leftrightarrow e^{\frac{4h}{\rho Cd}t}=\frac{T_0-T_{ext}}{T_f-T_{ext}}\\
-		\Leftrightarrow T_f=T_0+\frac{T_0-T_{ext}}{e^{\frac{4h}{\rho Cd}t}}
+		\Leftrightarrow T_f=T_{ext}+\frac{T_0-T_{ext}}{e^{\frac{4h}{\rho Cd}t}}
 		\end{gathered}
 	\end{equation}
 	
-	This, when we use the parameters of our experiment, would have given $T_f=XXXK=YYY$\textcelsius\ after $t=60s$.
+	This, when we use the parameters of our experiment, would have given $T_f=284.4K=11.25$\textcelsius\ after $t=60s$.
+	
+	Graph~\ref{NSg} gives the evolution of temperature($K$) with time($s$).
+	\begin{figure}
+		\label{NSg}
+		\centering
+		\includegraphics[width=\textwidth]{img/NSg.jpg}
+	\end{figure}
 	
 	\subsection{Spinning can}
 	
