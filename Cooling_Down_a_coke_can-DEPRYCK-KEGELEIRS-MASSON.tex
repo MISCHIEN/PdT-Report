@@ -77,11 +77,11 @@
 		\item One can was spun inside the bucket for 60 seconds at about 1000 rounds per minute, and a final temperature of 11\textcelsius \ was measured as a result of the convective and conductive heat transfer.
 	\end{itemize}
 	
-	In the first chapter, convective and conductive processes that are related to the experiment will be described. Those phenomena will then be applied to the problem via a mathematical model, including a discussion of simplifications brought to the problem in order to simplify calculations. This model will be compared to the experimental results, after what a discussion on it's reliability followed by a conclusion on mathematical models in general will be presented.
+	In the first chapter, convective and conductive processes that are related to the experiment will be described. Those phenomena will then be applied to the problem via a mathematical model, including a discussion of simplifications brought to the problem in order to simplify calculations. This model will be compared to the experimental results, then a discussion on it's reliability followed by a conclusion on mathematical models in general will be presented.
 	
 	\chapter{Heat transfer processes}\label{htp}
 	
-	They are three different ways of transferring heat: conduction, convection and radiation. Due to its nature (heat exchange for two distant bodies at very different temperatures), radiation can be neglected for this experiment and will thus not be presented here.
+	They are three different ways of transferring heat: conduction, convection and radiation. Due to its nature (heat exchange between two distant bodies at very different temperatures), radiation can be neglected for this experiment and will thus not be presented here.
 	
 	\section{Conduction}\label{cd}
 	
@@ -93,21 +93,27 @@
 		\frac{\delta T}{\delta t} = \bigtriangledown . (\alpha \bigtriangledown T)+ \dot{Q}_v
 	\end{equation}
 	
-	This equation can not be used by itself because of it's nature (second degree partial derivative equation). It thus needs conditions linked to properties of the system. Those can be geometrical, physical, temporal or border conditions.
+	This equation can not be used by itself because of it's nature (second degree partial derivative equation). It thus needs boundary conditions linked to properties of the system. Those can be geometrical, physical, temporal or border conditions.
 	
-	Conditions used and simplifications of the general equation above will be discussed in chapter~\ref{mm}
+	Boundary conditions used and simplifications of the above general equation will be discussed in chapter~\ref{mm}
 		
 	\section{Convection}\label{cv}
 	
-	Convection is a heat transfer in fluid. Convection occurs when some fluid is in movement. The movement lead to an advection (heat is transported by matters when it's moving).
+	Convection refers to particular heat transfers in fluids. Convection occurs when some fluid is in movement. The movement lead to an advection (heat is transported by moving matter).
 	
 	Convection is described as following :
 	\begin{equation}
 		Convection = Conduction + Advection
 	\end{equation}
 	
-	Seeing this, it is easy to understand that convection is superior than conduction in fluids in a flux situation. Flow properties have a major impact in heat transfers.
+	Seeing this, it is easy to understand that convection is superior than conduction in fluids in a flux situation. 
 	
+	An important distinction can be made in convective heat transfers : convection can be natural or forced.
+	Natural convection occurs mainly due to temperature differences which modify fluids density. Increasing the temperature amplifies thermal agitation which leads to a volume expansion along with a decreasing of density. Cold components are thus heavier and fall down while lighter hot components rise. This created a bulk fluid motion initiating a convective heat transfer called natural convection.
+	Forced convection refers to a convective heat transfer due to surface forces which generates a movement in the fuid. Those surfaces forces can can be applied by either artificial ways such as fans or natural ways such as blowing wind.
+	Both natural and forced convection can happend simultaneously.
+	
+	The flow properties also have a major impact on convective heat transfers and can be expressed through dimensionless numbers.
 	As convection depends on the flow (laminar, turbulent,...), we will discuss the equation to use in the next chapter(Mathematical model, chapter~\ref{mm}).
 	
 	\chapter{Mathematical model}\label{mm}
@@ -116,23 +122,23 @@
 	
 	This means that some simplifications of the equations seen before can be made, using the properties of the studied system.
 	
-	We will first describe general simplifying assumptions for our experiment and explain why we can use them, after what we will go ahead and create two simplified models: one for the non-spinning can and one for the spinning can.
+	General simplifying assumptions for the experiment will first be described and their validity will be discussed, then two simplified models will be presented: one for the non-spinning can and one for the spinning can.
 	
 	\section{General simplifying assumptions}\label{gsa}
 	
-	The first assumption we will consider is that the fluid contained in the can has properties similar to water. Coke is indeed an aqueous solution containing sugar and other ingredients, but at relatively low concentrations.
+	The first assumption that will be considered is that the fluid contained in the can has properties similar to water. Coke is indeed an aqueous solution containing sugar and other ingredients, but at relatively low concentrations.
 	Properties of water can be found in annex~\ref{WTPP} and are extracted from \emph{``Perry’s Chemical Engineers’ Handbook''\cite{properties}}.
 	
-	Another assumption is that the can is a perfect cylinder with an height of $h=116mm$ and a diameter of $d=66mm$\footnote{dimensions are standard ones for European Aluminium $330ml$ cans, those can be found on \hyperref{http://www.webpackaging.com/en/portals/rexam/assets/11059498/spec-alu-202/}{}{}{webpackaging.com}}. In the reality, the shape of a can is a bit different to support pressure but difference should not be significant in our calculations. The material used for cans is Aluminium and since it is extremely thin(less than $1mm$) and has an excellent thermal conductivity ($>200\frac{W}{K.m}$), we will consider it has no influence on heat transfers. We will thus consider a cylinder of water inside water maintained at another temperature and without any matter exchange, as shown in figure~\ref{cyl}.
+	Another assumption is that the can is a perfect cylinder with an height of $h=116mm$ and a diameter of $d=66mm$\footnote{dimensions are standard ones for European Aluminium $330ml$ cans, those can be found on \hyperref{http://www.webpackaging.com/en/portals/rexam/assets/11059498/spec-alu-202/}{}{}{webpackaging.com}}. In the reality, the shape of a can is a bit different to support pressure but difference should not be significant in present calculations. The material used for cans is Aluminium and since it is extremely thin(less than $1mm$) and has an excellent thermal conductivity ($>200\frac{W}{K.m}$), its influence on heat transfers can be neglected. The considered model will thus be a cylinder of water laid under water maintained at another temperature and without any matter exchange, as shown in figure~\ref{cyl}.
 	
 	\begin{figure}
 		\label{cyl}
 		\centering
 		\includegraphics[width=.5\textwidth]{img/cyl.jpg}
-		\caption{The red cylinder is hotter water, the blue box is colder water. No matter exchanges, only heat.}
+		\caption{The red cylinder is hotter water, the blue box is colder water. No matter exchanges, only heat transfer.}
 	\end{figure}
 	
-	Furthermore, we will consider that all heat exchanges between the can and surrounding ice-cold water takes place on de sides of the can and not on it's top or bottom. The total surface of the can is given by:
+	Furthermore, the hypothesis that all heat exchanges between the can and surrounding ice-cold water take place on de sides of the can and not on it's top or bottom will be assumed. The total surface of the can is given by:
 	
 	\begin{equation}
 	\begin{gathered}
@@ -142,14 +148,14 @@
 	\end{gathered}
 	\end{equation}
 	
-	Bottom and top circular surfaces have a total surface of $2xSurface_{circle}=2 (\pi  (\frac{d}{2})^2)= 6.8424 cm^3$, this is thus about $22.14\% $ of total surface. Reason why we decided to ignore such a large portion of the can's area is because half of it is not even in contact with ice during the experiment (the system holding the can covers it's top and non-spinning can is not totally in ice), reducing the area to consider at about $11\% $ of total exchange area. This can still be seen as a large percentage, but because it is on the bottom of the can and because we are trying to cool down a liquid and cold fluids tend to be more dense than hot fluid, the liquid in contact with the bottom part will be cooler, making heat transfer far less efficient there.
+	Bottom and top circular surfaces have a total surface of $2xSurface_{circle}=2 (\pi  (\frac{d}{2})^2)= 6.8424 cm^3$, this is thus about $22.14\% $ of total surface. Reason why it was decided to ignore such a large portion of the can's area is because half of it is not even in contact with ice during the experiment (the system holding the can covers it's top and non-spinning can is not totally in ice), reducing the area to consider at about $11\% $ of total exchange area. This can still be seen as a large percentage, but as it is on the bottom of the can and as we are trying to cool down a liquid, the liquid in contact with the bottom part will be cooler, making heat transfer far less efficient there because cold fluids tend to be more dense than hot fluids.
 	
-	The last general simplification we will make is to consider the mix of ice and water surrounding the cans as a continuous layer of water maintained at 0\textcelsius. This should be correct enough considering that we had a large quantity of melting ice in an isolated box; and because liquid water is more flexible than ice, the can has a larger surface in contact with molten ice (and thus water) than with ice itself.
+	The last general simplification made for this experiment is to consider the mix of ice and water surrounding the can as a continuous layer of water maintained at 0\textcelsius. This should be correct enough considering that there is a large quantity of melting ice in an isolated box; and as liquid water is more flexible than ice, the can has a larger surface in contact with molten ice (and thus water) than with ice itself.
 	
 	
 	\section{Simplified models}\label{sm}
 	
-	With these four simplifications in mind, we will now build two models, one for the non-spinning can and one for the spinning can.
+	With these four simplifications in mind, two models will now be build, one for the non-spinning can and one for the spinning can.
 	
 	\subsection{Non-spinning can}\label{nrc}
 	
@@ -160,7 +166,7 @@
 		h_x=Ra^\alpha = cGr^\alpha Pr^\alpha
 	\end{equation}
 	
-	Where $Gr$ is the Grashof Number and $Pr$ the Prandtl number. Prandtl is found in annex~\ref{WTPP}: water being at 16\textcelsius (about $290K$), we have $Pr=7.56$.\\
+	Where $Gr$ is the Grashof number and $Pr$ the Prandtl number. Prandtl can be found in annex~\ref{WTPP}: water being at 16\textcelsius (about $290K$), it gives $Pr=7.56$.\\
 	Grashof number is calculated using the following formula (taken from annex~\ref{FORMU}):
 	\begin{equation}
 	Gr=\frac{\beta g \Delta T_{ref} d^3}{\nu^2}
@@ -168,22 +174,22 @@
 	
 	Where:
 	\begin{itemize}
-		\item $\beta$ is the volume expansion coefficient, given by $\frac{1}{\rho}\frac{\delta\rho}{\delta T}$. Using the tables in annex~\ref{WTPP}, we can approximate $\beta=1.001\times 10^{-3}\frac{\frac{1}{1.000\times 10^{-3}}-\frac{1}{1.001\times 10^{-3}}}{5}=1.998\times 10^{-4} K^{-1}$.
+		\item $\beta$ is the volume expansion coefficient, given by $\frac{1}{\rho}\frac{\delta\rho}{\delta T}$. Using the tables in annex~\ref{WTPP}, the following approximation can be made : $\beta=1.001\times 10^{-3}\frac{\frac{1}{1.000\times 10^{-3}}-\frac{1}{1.001\times 10^{-3}}}{5}=1.998\times 10^{-4} K^{-1}$.
 		\item $g=9.81\frac{m^2}{s}$ is gravity.
 		\item $\Delta T_{ref}=16-0=16$\textcelsius\ is the difference of temperature between the water inside the can and the ice-cold water outside of it.
 		\item $d=33\times 10^{-3}m$ is the diameter of the cylinder.
 		\item $\nu=\frac{\mu}{\rho}=\frac{1080\times 10^{-6}}{\frac{1}{1.001\times 10^{-3}}}=1.081\times 10^{-6}\frac{m^2}{s}$ is water's kinematic viscosity.
 	\end{itemize}
-	All values used are from annex~\ref{WTPP}.
+	All values used come from annex~\ref{WTPP}.
 	
 	
-	Rayleigh is thus: 
+	Rayleigh number is thus: 
 	\begin{equation}
 		Ra = GrPr= 7.56\times \frac{1.998\times 10^{-4}\times 9.81\times 16\times (66\times 10^{-3})^3}{(1.081\times 10^{-6})^2}= 5.8329\times 10^{7}
 	\end{equation}
-	Since $Ra<10^9$, we are in a laminar case. We consider that the ice-cold water around the can is at a constant temperature. We now need to determine which equation to use for Nusselt number.
+	Since $Ra<10^9$, the laminar case should be considered. Assuming that the ice-cold water around the can is at a constant temperature, it is now needed to determine which equation to use for Nusselt number.
 	
-	The easiest approximation is to describe the cylinder as a rectangular enclosure, with H (the height of the enclosure) equal to $h=116mm$ and L (the characteristic length of the enclosure) equal to $\frac{d}{2}=33mm$. This gives us an H on L ratio of $\frac{H}{L}=3.352$. We will thus use equation 9-53 at page 555 of ``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}, chapter 9-5:
+	The easiest approximation is to describe the cylinder as a rectangular enclosure, with H (the height of the enclosure) equal to $h=116mm$ and L (the characteristic length of the enclosure) equal to $\frac{d}{2}=33mm$. This gives an H on L ratio of $\frac{H}{L}=3.352$. The equation 9-53 at page 555 of ``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}, chapter 9-5 will thus be used:
 	\begin{equation}
 		\begin{gathered}
 		Nu=0.22(\frac{Pr}{0.2+Pr}Ra)^{0.28}(\frac{H}{L})^{-1/4}\\
@@ -199,7 +205,7 @@
 		\end{gathered}	
 	\end{equation}
 	
-	Biot number is given by $Bi=\frac{hL}{k}=\frac{hd}{2k}=23.8347 > 1$. This indicates that \emph{we should not considerate our system as a Lumped system}, the temperature inside the can is not homogeneous. But, as our temperature is measured manually by putting a thermometer inside the can, and because the size of the thermometer is not negligible compared to the small radius of the can; we will simplify the system by using the equations for a Lumped system in the case of sensible heat transfer:
+	Biot number is given by $Bi=\frac{hL}{k}=\frac{hd}{2k}=23.8347 > 1$. This indicates that \emph{the system can not be considered as a Lumped system}, the temperature inside the can is not homogeneous. But, as the temperature is measured manually by putting a thermometer inside the can, and as the size of the thermometer is not negligible compared to the small radius of the can, the system will be simplified by using the equations for a Lumped system in the case of sensible heat transfer:
 	
 	\begin{equation}
 		\begin{gathered}
@@ -212,20 +218,20 @@
 		\end{gathered}
 	\end{equation}
 	
-	This, when we use the parameters of our experiment, would have given $T_f=284.14K=10.99$\textcelsius\ after $t=60s$.
+	This, when using the parameters of the experiment, would have given $T_f=284.14K=10.99$\textcelsius\ after $t=60s$.
 	
-	This value is quite far from what is observed in our experiment. This is due to some simplifications we made, like, for example, using the Lumped system equations, or some of our parameters choice.
+	This value is quite far from what is observed in the experiment. This is due to some simplifications made here, like, for example, using the Lumped system equations, or some of the parameters choice.
 	
-	Looking at our parameters, the approximation made for $\beta$ can be refined. If, instead of using the value approximated over the temperature interval, we use the value for $\beta$ at 15\textcelsius\ given in Appendix A-1, table A-9 of ``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}: $\beta=1.38\times 10^{-4} K^{-1}$. Injecting this in our model already adds some accuracy, with a temperature of $11.40$\textcelsius\ ($284.55K$).
+	Looking at the parameters, the approximation made for $\beta$ can be refined if, instead of using the value approximated over the temperature interval, the value for $\beta$ at 15\textcelsius\ given in Appendix A-1, table A-9 of ``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}: $\beta=1.38\times 10^{-4} K^{-1}$ is used. Injecting this in the model already adds some accuracy, with a temperature of $11.40$\textcelsius\ ($284.55K$).
 	
-	Moreover, the values of $\beta$ and $Pr$ are not fixed, they depend on temperature. To get even more accurate results, we will now take ``mean values'' of those two numbers. In order to do so, since their evolution is small in our interval of temperatures ($1.38\times 10^{-4}$ to $0.733\times 10^{-4}$ for $\beta$ and $8.09$ to $9.45\times 10^{-4}$ for Prandtl~\footnote{Be warned that the values for Prandtl are different than the one used before: this is due to the fact we decided to use values from the same source (``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}) here to ensure they are calculated the same way. This also shows the differences we can have for the same number, depending of your source and the temperatures it uses as standards}), we make the assumption that their variation is linear and that we can use the linear mean value on the interval. In the end, we have $\beta=1.056\times 10^{-4} K^{-1}$ and $Pr=8.77$.
+	Moreover, the values of $\beta$ and $Pr$ are not fixed, they depend on temperature. To get even more accurate results, ``mean values'' of those two numbers will now be taken. In order to do so, since their evolution is small in the interval of temperatures ($1.38\times 10^{-4}$ to $0.733\times 10^{-4}$ for $\beta$ and $8.09$ to $9.45\times 10^{-4}$ for Prandtl~\footnote{Be warned that the values for Prandtl are different than the one used before: this is due to the fact it was decided to use values from the same source (``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}) here to ensure they are calculated the same way. This also shows the differences that can be observed for the same number, depending of the source and the temperatures it uses as standards}), the assumption is made that their variation is linear and that the linear mean value on the interval can be used. In the end, it gives $\beta=1.056\times 10^{-4} K^{-1}$ and $Pr=8.77$.
 	
-	Those corrections, when injected in our model, give us $T_f=284.68K=11.53$\textcelsius\ after $t=60s$. This value seems acceptable, considering the simplifications made on the system. The error compared to the experimental results is about $3.11$\textdiscount, and we have to take in account the fact that the temperature measurement made during the experiment where not immediate and that the thermometer itself was warm.
+	Those corrections, when injected in the model, give $T_f=284.68K=11.53$\textcelsius\ after $t=60s$. This value seems acceptable, considering the simplifications made on the system. The error compared to the experimental results is about $3.11$\textdiscount, and the fact that the temperature measurement made during the experiment where not immediate and that the thermometer itself was warm has to be taken in account.
 	
 	The code used for this part of the model can be found in annex~\ref{codeNS}
 	
 	
-	Graph~\ref{NSg} gives the evolution of temperature($K$) with time($s$) for our last model with enhanced approximations of Prandtl and $\beta$.
+	Graph~\ref{NSg} gives the evolution of temperature($K$) with time($s$) for the last model with enhanced approximations of Prandtl and $\beta$.
 	\begin{figure}
 		\label{NSg}
 		\centering
@@ -257,7 +263,7 @@
 	
 	\chapter{Codes}
 	
-	The following codes where used to calculate our models and obtain the different graphs. The reader should be advised this code is only usable for this work and should not be reused as it takes in account parameters and simplifying assumptions made for this particular experiment.
+	The following codes where used to calculate the models and obtain the different graphs. The reader should be advised this code is only usable for this work and should not be reused as it takes in account parameters and simplifying assumptions made for this particular experiment.
 	
 	\section{Non-spinning model}\label{codeNS}
 	
