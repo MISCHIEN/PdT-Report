@@ -132,10 +132,10 @@
 	Another assumption is that the can is a perfect cylinder with an height of $h=116mm$ and a diameter of $d=66mm$\footnote{dimensions are standard ones for European Aluminium $330ml$ cans, those can be found on \hyperref{http://www.webpackaging.com/en/portals/rexam/assets/11059498/spec-alu-202/}{}{}{webpackaging.com}}. In the reality, the shape of a can is a bit different to support pressure but difference should not be significant in present calculations. The material used for cans is Aluminium and since it is extremely thin(less than $1mm$) and has an excellent thermal conductivity ($>200\frac{W}{K.m}$), its influence on heat transfers can be neglected. The considered model will thus be a cylinder of water laid under water maintained at another temperature and without any matter exchange, as shown in figure~\ref{cyl}.
 	
 	\begin{figure}
-		\label{cyl}
 		\centering
 		\includegraphics[width=.5\textwidth]{img/cyl.jpg}
 		\caption{The red cylinder is hotter water, the blue box is colder water. No matter exchanges, only heat transfer.}
+		\label{cyl}
 	\end{figure}
 	
 	Furthermore, the hypothesis that all heat exchanges between the can and surrounding ice-cold water take place on de sides of the can and not on it's top or bottom will be assumed. The total surface of the can is given by:
@@ -209,12 +209,12 @@
 	
 	\begin{equation}
 		\begin{gathered}
-		\rho CV\frac{dT}{dt}=-hS_{tot}(T-T_{ext})\\
-		\Leftrightarrow \frac{hS_{tot}}{\rho CV}dt=\frac{1}{(T_{ext}-T)}dT\\
-		\Leftrightarrow \frac{4h}{\rho Cd}dt=\frac{1}{(T_{ext}-T)}dT\\
-		\Leftrightarrow \frac{4h}{\rho Cd}t=ln(\frac{T_0-T_{ext}}{T_f-T_{ext}})\\
-		\Leftrightarrow e^{\frac{4h}{\rho Cd}t}=\frac{T_0-T_{ext}}{T_f-T_{ext}}\\
-		\Leftrightarrow T_f=T_{ext}+\frac{T_0-T_{ext}}{e^{\frac{4h}{\rho Cd}t}}
+		\rho C_pV\frac{dT}{dt}=-hS_{tot}(T-T_{ext})\\
+		\Leftrightarrow \frac{hS_{tot}}{\rho C_pV}dt=\frac{1}{(T_{ext}-T)}dT\\
+		\Leftrightarrow \frac{4h}{\rho C_pd}dt=\frac{1}{(T_{ext}-T)}dT\\
+		\Leftrightarrow \frac{4h}{\rho C_pd}t=ln(\frac{T_0-T_{ext}}{T_f-T_{ext}})\\
+		\Leftrightarrow e^{\frac{4h}{\rho C_pd}t}=\frac{T_0-T_{ext}}{T_f-T_{ext}}\\
+		\Leftrightarrow T_f=T_{ext}+\frac{T_0-T_{ext}}{e^{\frac{4h}{\rho C_pd}t}}
 		\end{gathered}
 	\end{equation}
 	
@@ -224,18 +224,19 @@
 	
 	Looking at the parameters, the approximation made for $\beta$ can be refined if, instead of using the value approximated over the temperature interval, the value for $\beta$ at 15\textcelsius\ given in Appendix A-1, table A-9 of ``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}: $\beta=1.38\times 10^{-4} K^{-1}$ is used. Injecting this in the model already adds some accuracy, with a temperature of $11.40$\textcelsius\ ($284.55K$).
 	
-	Moreover, the values of $\beta$ and $Pr$ are not fixed, they depend on temperature. To get even more accurate results, ``mean values'' of those two numbers will now be taken. In order to do so, since their evolution is small in the interval of temperatures ($1.38\times 10^{-4}$ to $0.733\times 10^{-4}$ for $\beta$ and $8.09$ to $9.45\times 10^{-4}$ for Prandtl~\footnote{Be warned that the values for Prandtl are different than the one used before: this is due to the fact it was decided to use values from the same source (``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}) here to ensure they are calculated the same way. This also shows the differences that can be observed for the same number, depending of the source and the temperatures it uses as standards}), the assumption is made that their variation is linear and that the linear mean value on the interval can be used. In the end, it gives $\beta=1.056\times 10^{-4} K^{-1}$ and $Pr=8.77$.
+	Moreover, the values of $\beta$ and $Pr$ are not fixed, they depend on temperature. To get even more accurate results, ``mean values'' of those two numbers will now be taken. In order to do so, since their evolution is small in the interval of temperatures ($1.38\times 10^{-4}$ to $0.733\times 10^{-4}$ for $\beta$ and $8.09$ to $9.45\times 10^{-4}$ for Prandtl~\footnote{Be warned that the values for Prandtl are different than the one used before: this is due to the fact it was decided to use values from the same source (``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}) here to ensure they are calculated the same way. This also shows the differences that can be observed for the same number, depending of the source and the temperatures it uses as standards}), the assumption is made that their variation is linear and that the linear mean value on the interval can be used. In the end, it gives $\beta=1.056\times 10^{-4} K^{-1}$ and $Pr=8.77$. The same correction can be made for $k$, $\rho$ and $C_p$; giving $k=0.584\frac{W}{mK}$, $\rho=999.4\frac{kg}{m^3}$ and $C_p=4189.5\frac{J}{kgK}$.
 	
-	Those corrections, when injected in the model, give $T_f=284.68K=11.53$\textcelsius\ after $t=60s$. This value seems acceptable, considering the simplifications made on the system. The error compared to the experimental results is about $3.11$\textdiscount, and the fact that the temperature measurement made during the experiment where not immediate and that the thermometer itself was warm has to be taken in account.
+	Those corrections, when injected in the model, give $T_f=284.77K=11.62$\textcelsius\ after $t=60s$. Biot number for this case is $Bi=20.8$, still high. Even with this high Biot number, the value obtained seems acceptable, considering the simplifications made on the system. The error compared to the experimental result is about $2.38$\textdiscount (when taken in degrees Celsius), and the fact that the temperature measurement made during the experiment where not immediate and that the thermometer itself was warm has to be taken in account.
 	
 	The code used for this part of the model can be found in annex~\ref{codeNS}
 	
 	
 	Graph~\ref{NSg} gives the evolution of temperature($K$) with time($s$) for the last model with enhanced approximations of Prandtl and $\beta$.
 	\begin{figure}
-		\label{NSg}
 		\centering
 		\includegraphics[width=\textwidth]{img/NSg.jpg}
+		\caption{Graph of temperature versus time for the non-spinning can. The star marks the $60s$ point.}
+		\label{NSg}
 	\end{figure}
 	
 	
@@ -271,11 +272,14 @@
 	t = linspace(0,120,1210);
 	Pr=8.77
 	beta=1.056*10^(-4)
+	rho=999.4;
+	k=.584;
+	Cp=4189.5;
 	Ra=Pr*(beta*9.81*16*(.066)^(3))/(1.081*10^(-6))^2
 	Nu=0.22*(Pr*Ra/(0.2+Pr))^(0.28) *(0.116/0.033)^(-1/4)
-	h=Nu*0.598/.033
-	T60=(16./(exp((4*h*60)/(1000*4184*.066))))
-	Tf=273.15 +(16./(exp((4*h*t)/(1000*4184*.066))));
+	h=Nu*k/.033
+	T60=(16./(exp((4*h*60)/(rho*4184*.066))))
+	Tf=273.15 +(16./(exp((4*h*t)/(rho*Cp*.066))));
 	plot(t,Tf,60,T60+273.15,'*')
 	strValues = num2str([60 T60+273.15]);
 	text(60,T60+273.15,strcat('(',strValues,')'),'VerticalAlignment','bottom');
