@@ -157,7 +157,7 @@
 	
 	With these four simplifications in mind, two models will now be build, one for the non-spinning can and one for the spinning can.
 	
-	\subsection{Non-spinning can}\label{nrc}
+	\subsection{Non-spinning can}\label{nsc}
 	
 	Heat transfer processes in presence are conduction and natural convection. Natural convection appears because of the density change of fluid related to temperature: the cooler the fluid, the denser it is. There is no forced convection because there is no flux in the fluid.
 	
@@ -243,7 +243,51 @@
 	
 	
 	
-	\subsection{Spinning can}
+	\subsection{Spinning can}\label{sc}
+	
+	For this model, we will be using simplifying assumptions made in section~\ref{nsc} concerning Prandtl number ($Pr$), the density of water ($\rho$), the volume expansion coefficient  for water ($\beta$), the specific heat of water ($C_p$) and thermal conductivity of water ($k$).
+	
+	For this case, our hotter water cylinder shown in red on figure~\ref{cyl} is spinning at $\Omega=1000rpm=1.6667\times 10^1 \frac{rounds}{s}$. This can be considered as a flow along a plate, the plate being the interface between hot and cold water, at a certain speed $U$.
+	
+	The speed's distribution outside of the can is decreasing quickly, with a maximum on the can's surface. This maximum is given by $U_{max}= \Omega \pi d=3.4558\frac{m}{s}$. The speed quickly drops to zero since ice is slowing the water. The We will again use the linear approximation made before and consider that the flow has a ``mean'' speed of $U=\frac{U_{max}}{2}=1.7279\frac{m}{s}$.
+	
+	Knowing our speed, we can now calculate Reynolds number $Re=\frac{\rho U L}{\mu}$. The characteristic length $L$ for this problem is the circumference of the can, since the speed is tangent to it, so we have $L=\pi d$. $\nu$ is the dynamic viscosity of water and can be found on table 9, Annex-1 of ``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}. We will use the same approach as before and consider the ``mean'' value of $\mu$ on our interval, which is $\mu=1.2225\times 10^{-3}$. Reynolds is thus $\Re= \frac{999.4 \times 1.7279 \times 0.116}{1.2225\times 10^{-3}}= 1.6386 \times 10^5$.
+	
+	We will now use the formula for a flow on a flat plate (see annex~\ref{FORMU} page 4). We have $Re<3\times 10^5$, meaning we are in laminar regime:
+	\begin{equation}
+		\begin{gathered}
+		Nu_{out}= \frac{1}{2}0.332Pr^{\frac{1}{3}}\sqrt{Re}\\
+		Nu_{out}=1.3857\times 10^2
+		\end{gathered}
+	\end{equation}
+	
+	We can now calculate $h$:
+	\begin{equation}
+	h_{out}=\frac{Nu_{out}k}{L}=3.9029\times 10^2 \frac{W}{m^2K}
+	\end{equation}
+	
+	Biot number is given by $Bi=\frac{h_{out}}{{\frac{4k}{d}+h_{in}}}$ where $h_{in}$ was calculated for natural convection in the non-spinning case~\ref{nsc}. We thus have $Bi=9.671\times 10^{-1}$, which is lower than the critical value of $1$. Using the lumped system equation is perfectly correct:
+	\begin{equation}
+	\begin{gathered}
+	\rho C_pV\frac{dT}{dt}=-hS_{tot}(T-T_{ext})\\
+	\Leftrightarrow \frac{hS_{tot}}{\rho C_pV}dt=\frac{1}{(T_{ext}-T)}dT\\
+	\Leftrightarrow \frac{4h}{\rho C_pd}dt=\frac{1}{(T_{ext}-T)}dT\\
+	\Leftrightarrow \frac{4h}{\rho C_pd}t=ln(\frac{T_0-T_{ext}}{T_f-T_{ext}})\\
+	\Leftrightarrow e^{\frac{4h}{\rho C_pd}t}=\frac{T_0-T_{ext}}{T_f-T_{ext}}\\
+	\Leftrightarrow T_f=T_{ext}+\frac{T_0-T_{ext}}{e^{\frac{4h}{\rho C_pd}t}}
+	\end{gathered}
+	\end{equation}
+
+	With $h=h_{out}+h_{in}$ and for $t=60s$, we have $T=281.42K=8.27$\textcelsius.
+	
+	Graph~\ref{Sg} shows the relation between temperature and time for different rotation speeds, ranging from $\Omega=250rpm$ to $\Omega=1750rpm$, with steps of $250rpm$. We can clearly see that at higher speeds, the can is cooled down more quickly.
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{img/Sg.jpg}
+		\caption{Graph of temperature versus time for the spinning can for speeds ranging from $\Omega=250rpm$ to $\Omega=1750rpm$, steps of $250rpm$}
+		\label{Sg}
+	\end{figure}
 	
 	\chapter[Reality and mathematical model]{Comparison between reality and the mathematical model}\label{rvmm}
 	
@@ -285,6 +329,59 @@
 	plot(t,Tf,60,T60+273.15,'*')
 	strValues = num2str([60 T60+273.15]);
 	text(60,T60+273.15,strcat('(',strValues,')'),'VerticalAlignment','bottom');
+	title('Temperature(K) VS Time(s)')
+	xlabel('Time(s)')
+	ylabel('Temperature (K)')
+	\end{lstlisting}
+	
+	\section{Non-spinning model}\label{codeS}
+	
+	\begin{lstlisting}[style=Matlab-editor]
+	t = linspace(0,120,1210);
+	Pr=8.77;
+	beta=1.056*10^(-4);
+	rho=999.4;
+	k=.584;
+	Cp=4189.5;
+	mu=.0012225;
+	U=1.7279;
+	Ra=Pr*(beta*9.81*16*(.066)^(3))/(1.081*10^(-6))^2;
+	Nuin=0.22*(Pr*Ra/(0.2+Pr))^(0.28) *(0.116/0.033)^(-1/4);
+	hin=Nuin*k/.033;
+	Re=rho*U*.116/mu;
+	Nuout=.5*.332*Pr^(1/3)*sqrt(Re);
+	hout=Nuout*k/.2073451151;
+	h=hin+hout;
+	T60=(16./(exp((4*h*60)/(rho*4184*.066))))
+	Tf=273.15 +(16./(exp((4*h*t)/(rho*Cp*.066))));
+	
+	U2=.25*U;U3=.5*U;U4=.75*U;U5=1.25*U;U6=1.5*U;U7=1.75*U;
+	Re2=rho*U2*.116/mu;Re3=rho*U3*.116/mu;Re4=rho*U4*.116/mu;Re5=rho*U5*.116/mu;Re6=rho*U6*.116/mu;Re7=rho*U7*.116/mu;
+	Nuout2=.5*.332*Pr^(1/3)*sqrt(Re2);
+	Nuout3=.5*.332*Pr^(1/3)*sqrt(Re3);
+	Nuout4=.5*.332*Pr^(1/3)*sqrt(Re4);
+	Nuout5=.5*.332*Pr^(1/3)*sqrt(Re5);
+	Nuout6=.5*.332*Pr^(1/3)*sqrt(Re6);
+	Nuout7=.5*.332*Pr^(1/3)*sqrt(Re7);
+	hout2=Nuout2*k/.2073451151;
+	hout3=Nuout3*k/.2073451151;
+	hout4=Nuout4*k/.2073451151;
+	hout5=Nuout5*k/.2073451151;
+	hout6=Nuout6*k/.2073451151;
+	hout7=Nuout7*k/.2073451151;
+	h2=hin+hout2;h3=hin+hout3;h4=hin+hout4;h5=hin+hout5;h6=hin+hout6;h7=hin+hout7;
+	Tf2=273.15 +(16./(exp((4*h2*t)/(rho*Cp*.066))));
+	Tf3=273.15 +(16./(exp((4*h3*t)/(rho*Cp*.066))));
+	Tf4=273.15 +(16./(exp((4*h4*t)/(rho*Cp*.066))));
+	Tf5=273.15 +(16./(exp((4*h5*t)/(rho*Cp*.066))));
+	Tf6=273.15 +(16./(exp((4*h6*t)/(rho*Cp*.066))));
+	Tf7=273.15 +(16./(exp((4*h7*t)/(rho*Cp*.066))));
+	
+	
+	plot(t,Tf,t,Tf2,t,Tf3,t,Tf4,t,Tf5,t,Tf6,t,Tf7,60,T60+273.15,'*')
+	strValues = num2str([60 T60+273.15]);
+	text(60,T60+273.15,strcat('(',strValues,')'),'VerticalAlignment','bottom');
+	legend(strcat('Speed=',num2str(U)),strcat('Speed=',num2str(U2)),strcat('Speed=',num2str(U3)),strcat('Speed=',num2str(U4)),strcat('Speed=',num2str(U5)),strcat('Speed=',num2str(U6)),strcat('Speed=',num2str(U7)));
 	title('Temperature(K) VS Time(s)')
 	xlabel('Time(s)')
 	ylabel('Temperature (K)')
