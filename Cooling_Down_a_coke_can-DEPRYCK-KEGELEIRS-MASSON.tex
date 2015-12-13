@@ -245,15 +245,15 @@
 	
 	\subsection{Spinning can}\label{sc}
 	
-	For this model, we will be using simplifying assumptions made in section~\ref{nsc} concerning Prandtl number ($Pr$), the density of water ($\rho$), the volume expansion coefficient  for water ($\beta$), the specific heat of water ($C_p$) and thermal conductivity of water ($k$).
+	For this model, simplifying assumptions made in section~\ref{nsc} will be used, concerning Prandtl number ($Pr$), the density of water ($\rho$), the volume expansion coefficient for water ($\beta$), the specific heat of water ($C_p$) and thermal conductivity of water ($k$).
 	
-	For this case, our hotter water cylinder shown in red on figure~\ref{cyl} is spinning at $\Omega=1000rpm=1.6667\times 10^1 \frac{rounds}{s}$. This can be considered as a flow along a plate, the plate being the interface between hot and cold water, at a certain speed $U$.
+	For this case, the hot water cylinder shown in red on figure~\ref{cyl} is spinning at $\Omega=1000rpm=1.6667\times 10^1 \frac{rounds}{s}$. This can be considered as a flow along a plate, the plate being the interface between hot and cold water, at a certain speed $U$.
 	
-	The speed's distribution outside of the can is decreasing quickly, with a maximum on the can's surface. This maximum is given by $U_{max}= \Omega \pi d=3.4558\frac{m}{s}$. The speed quickly drops to zero since ice is slowing the water. The We will again use the linear approximation made before and consider that the flow has a ``mean'' speed of $U=\frac{U_{max}}{2}=1.7279\frac{m}{s}$.
+	The speed's distribution outside of the can is decreasing quickly, with a maximum on the can's surface. This maximum is given by $U_{max}= \Omega \pi d=3.4558\frac{m}{s}$. The speed quickly drops to zero since ice is slowing the water. The linear approximation made before will be used again and the flow will be considered as having a ``mean'' speed of $U=\frac{U_{max}}{2}=1.7279\frac{m}{s}$.
 	
-	Knowing our speed, we can now calculate Reynolds number $Re=\frac{\rho U L}{\mu}$. The characteristic length $L$ for this problem is the circumference of the can, since the speed is tangent to it, so we have $L=\pi d$. $\nu$ is the dynamic viscosity of water and can be found on table 9, Annex-1 of ``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}. We will use the same approach as before and consider the ``mean'' value of $\mu$ on our interval, which is $\mu=1.2225\times 10^{-3}$. Reynolds is thus $\Re= \frac{999.4 \times 1.7279 \times 0.116}{1.2225\times 10^{-3}}= 1.6386 \times 10^5$.
+	Knowing this speed, the calculation of Reynolds number $Re=\frac{\rho U L}{\mu}$ can be made. The characteristic length $L$ for this problem is the circumference of the can, since the speed is tangent to it, which gives $L=\pi d$. $\nu$ is the dynamic viscosity of water and can be found on table 9, Annex-1 of ``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}. The same approach as before will be kept and the ``mean'' value of $\mu$ on the interval will be considered , which is $\mu=1.2225\times 10^{-3}$. Reynolds is thus $\Re= \frac{999.4 \times 1.7279 \times 0.116}{1.2225\times 10^{-3}}= 1.6386 \times 10^5$.
 	
-	We will now use the formula for a flow on a flat plate (see annex~\ref{FORMU} page 4). We have $Re<3\times 10^5$, meaning we are in laminar regime:
+	The next step is to use the formula for a flow on a flat plate (see annex~\ref{FORMU} page 4). The Reynolds number calculated before is $Re<3\times 10^5$, meaning it is a laminar regime:
 	\begin{equation}
 		\begin{gathered}
 		Nu_{out}= \frac{1}{2}0.332Pr^{\frac{1}{3}}\sqrt{Re}\\
@@ -261,12 +261,12 @@
 		\end{gathered}
 	\end{equation}
 	
-	We can now calculate $h$:
+	$h$ can now be calculated :
 	\begin{equation}
 	h_{out}=\frac{Nu_{out}k}{L}=3.9029\times 10^2 \frac{W}{m^2K}
 	\end{equation}
 	
-	Biot number is given by $Bi=\frac{h_{out}}{{\frac{4k}{d}+h_{in}}}$ where $h_{in}$ was calculated for natural convection in the non-spinning case~\ref{nsc}. We thus have $Bi=9.671\times 10^{-1}$, which is lower than the critical value of $1$. Using the lumped system equation is perfectly correct:
+	Biot number is given by $Bi=\frac{h_{out}}{{\frac{4k}{d}+h_{in}}}$ where $h_{in}$ was calculated for natural convection in the non-spinning case~\ref{nsc}. Biot is thus $Bi=9.671\times 10^{-1}$, which is lower than the critical value of $1$. Using the lumped system equation is therefore perfectly correct:
 	\begin{equation}
 	\begin{gathered}
 	\rho C_pV\frac{dT}{dt}=-hS_{tot}(T-T_{ext})\\
@@ -278,9 +278,9 @@
 	\end{gathered}
 	\end{equation}
 
-	With $h=h_{out}+h_{in}$ and for $t=60s$, we have $T=281.42K=8.27$\textcelsius.
+	With $h=h_{out}+h_{in}$ and for $t=60s$, the final temperature is $T=281.42K=8.27$\textcelsius.
 	
-	Graph~\ref{Sg} shows the relation between temperature and time for different rotation speeds, ranging from $\Omega=0rpm$ to $\Omega=1750rpm$, with steps of $250rpm$. We can clearly see that at higher speeds, the can is cooled down more quickly.
+	Graph~\ref{Sg} shows the relation between temperature and time for different rotation speeds, ranging from $\Omega=0rpm$ to $\Omega=1750rpm$, with steps of $250rpm$. It can clearly be observed that at higher speeds, the can is cooled down more quickly.
 	
 	\begin{figure}
 		\centering
