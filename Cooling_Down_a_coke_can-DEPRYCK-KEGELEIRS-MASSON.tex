@@ -117,7 +117,7 @@
 	
 	Convection refers to particular heat transfers in fluids. Convection occurs when some fluid is in movement. The movement lead to an advection (heat is transported by moving matter).
 	
-	Convection is described as following :
+	Convection is described as following in Professor Jean-Marie Buchlin's course\cite{Buchlin} :
 	\begin{equation}
 		Convection = Conduction + Advection
 	\end{equation}
@@ -127,10 +127,10 @@
 	An important distinction can be made in convective heat transfers : convection can be natural or forced.
 	Natural convection occurs mainly due to temperature differences which modify fluids density. Increasing the temperature amplifies thermal agitation which leads to a volume expansion along with a decreasing of density. Cold components are thus heavier and fall down while lighter hot components rise. This created a bulk fluid motion initiating a convective heat transfer called natural convection.
 	Forced convection refers to a convective heat transfer due to surface forces which generates a movement in the fuid. This convective heat transfer has thus a great sensitivity to the velocity acquired by the fluid. The surfaces forces can be applied by either artificial ways such as fans or natural ways such as blowing wind. 
-	Both natural and forced convection can happend simultaneously but forced convection is usually the most significant, especially at high velocity.
+	Both natural and forced convection can happen simultaneously but forced convection is usually the most significant, especially at high velocity.
 	
-	The flow properties also have a major impact on convective heat transfers and can be expressed through dimensionless numbers.
-	As convection depends on the flow (laminar, turbulent,...), we will discuss the equation to use in the next chapter.
+	The flow properties also have a major impact on convective heat transfers and can be expressed through dimensionless numbers like the important Nusselt number (Notions de transfert thermique par convection, chapter 5\cite{convection}).
+	As convection depends on the flow (laminar, turbulent,...), the equation to use will be discussed in the next section. 
 	
 	\chapter{Mathematical model}\label{mm}
 	
@@ -145,7 +145,7 @@
 	The first assumption that will be considered is that the fluid contained in the can has properties similar to those of water. Coke is indeed an aqueous solution containing sugar and other ingredients, but at relatively low concentrations.
 	Properties of water can be found in annex~\ref{WTPP} and are extracted from \emph{``Perry’s Chemical Engineers’ Handbook''\cite{properties}}.
 	
-	We also assume that the can is a perfect cylinder with an height of $h=116mm$ and a diameter of $d=66mm$\footnote{Those dimensions are standard for European Aluminium $330ml$ cans and can be found on \hyperref{http://www.webpackaging.com/en/portals/rexam/assets/11059498/spec-alu-202/}{}{}{webpackaging.com}}. In reality, the shape of a can is a bit different in order to support pressure but this difference should not be significant in our calculations. The material used for cans is Aluminium and since it is extremely thin(less than $1mm$) and has an excellent thermal conductivity ($>200\frac{W}{K.m}$), its influence on heat transfers can be neglected. The considered model will thus be a cylinder of water laid under water maintained at another temperature and without any exchange of matter, as shown in figure~\ref{cyl}.
+	We also assume that the can is a perfect cylinder with an height of $h=116mm$ and a diameter of $d=66mm$\footnote{Those dimensions are standard for European Aluminium $330ml$ cans and can be found on \hyperref{http://www.webpackaging.com/en/portals/rexam/assets/11059498/spec-alu-202/}{}{}{webpackaging.com}\cite{can}}. In reality, the shape of a can is a bit different in order to support pressure but this difference should not be significant in our calculations. The material used for cans is Aluminium and since it is extremely thin(less than $1mm$) and has an excellent thermal conductivity ($>200\frac{W}{K.m}$), its influence on heat transfers can be neglected. The considered model will thus be a cylinder of water laid under water maintained at another temperature and without any exchange of matter, as shown in figure~\ref{cyl}.
 	
 	\begin{figure}
 		\centering
@@ -164,7 +164,7 @@
 		\end{gathered}
 	\end{equation}
 	
-	Bottom and top circular surfaces have a total surface of $2xSurface_{circle}=2 (\pi  (\frac{d}{2})^2)= 6.8424 cm^3$, which makes around $22.14\% $ of the total surface. The reason why it was decided to ignore such a large portion of the can's area is that half of it is not even in contact with ice during the experiment (the system holding the can covers it's top and the non-spinning can is not totally in ice), reducing the area to consider at about $11\% $ of total exchange area. This can still be seen as a large percentage. However, on one side we are trying to cool down a liquid on the bottom of the can and, on the other hand, cold fluids tend to be more dense than hot fluids. Therefore, the liquid in contact with the bottom part will be cooler, making the heat transfer far less efficient there.
+	Bottom and top circular surfaces have a total surface of $2\times Surface_{circle}=2 (\pi  (\frac{d}{2})^2)= 6.8424 cm^3$, which makes around $22.14\% $ of the total surface. The reason why it was decided to ignore such a large portion of the can's area is that half of it is not even in contact with ice during the experiment (the system holding the can covers it's top and the non-spinning can is not totally in ice), reducing the area to consider at about $11\% $ of total exchange area. This can still be seen as a large percentage. However, on one side we are trying to cool down a liquid on the bottom of the can and, on the other hand, cold fluids tend to be more dense than hot fluids. Therefore, the liquid in contact with the bottom part will be cooler, making the heat transfer far less efficient there.
 	
 	The last general simplification made for this experiment is to consider the mix of ice and water surrounding the can as a continuous layer of water maintained at 0\textcelsius. This should be correct enough considering that there is a large quantity of melting ice in an isolated box. Indeed, liquid water is more flexible than ice, the can has a larger surface in contact with molten ice (thus water) than with the ice itself.
 	
@@ -297,10 +297,10 @@
 	
 	\chapter[Reality and mathematical model]{Comparison between reality and the mathematical model}\label{rvmm}
 	
-	This section is about the difference between the mathematical model and the reality. A simple look at the measurement done underlines that the mathematical model does not perfectly correspond to the reality. The temperature observed in the non-spinning case are $11.9$ \textcelsius\ in reality and $11.61$ \textcelsius\ in the mathematical model. For the spinning case, they are respectively $11$ \textcelsius\  and $8.27$\textcelsius\.
+	This section is about the difference between the mathematical model and the reality. A simple look at the measurement done underlines that the mathematical model does not perfectly correspond to the reality. The temperature observed in the non-spinning case are $11.9$ \textcelsius\ in reality and $11.61$ \textcelsius\ in the mathematical model. For the spinning case, they are respectively $11$ \textcelsius\  and $8.27$\textcelsius\. 
 	The main reason of this difference is that the mathematical model is based on simplified assumptions.
 	
-	The first one was to consider that the fluid inside	the can has the same properties as water. This approximation leads to errors on the value of some calculated parameters such as the kinematic viscosity	used to calculate the Grashof number. Moreover this number has a direct impact on the value of the convective coefficient $h$ because it is used to calculate the Nusselt number($N_{u}=\frac{hL}{k}$). 
+	The first one was to consider that the fluid inside	the can has the same properties as water. This approximation leads to errors on the value of some calculated parameters such as the kinematic viscosity	used to calculate the Grashof number. Moreover this number has a direct impact on the value of the convective coefficient $h$ because it is used to calculate the Nusselt number ($N_{u}=\frac{hL}{k}$). 
 	
 	The second one is that the surface of the can is described as a perfect cylinder and that some part of the surface are not taken into account because their influence is negligible. This also leads to slight differences with the reality.
 	
@@ -339,7 +339,7 @@
 	\vspace{11pt}
 	
 	``Heat and Mass Transfer Fundamentals and Applications''\cite{HaMT}.\\
-	Written by two well known scientist in the field of fluid mechanics, this book is the new reference book for Pr Parente's course. It presents equations and discussions for various heat transfer cases, along with a set of validated charts of materials properties. The edition used is the fifth, that was published in 2014 after a set of corrections.
+	Written by two well known scientists in the field of fluid mechanics, this book is the new reference book for Pr Parente's course. It presents equations and discussions for various heat transfer cases, along with a set of validated charts of materials properties. The edition used is the fifth, that was published in 2014 after a set of corrections.
 	
 	\vspace{11pt}
 	
@@ -348,7 +348,13 @@
 	
 	\vspace{11pt}
 	
-	\hyperref{http://www.webpackaging.com/en/portals/rexam/assets/11059498/spec-alu-202/}{}{}{webpackaging.com}.\\
+	`` Notions de transfert thermique par convection ''\cite{convection}.\\
+	This article was written by two scientists of the "École Centrale des Arts et Manufactures" of Paris. It gives plenty of informations and equations about the convective heat transfer, especially about the Nusselt number calculation.
+	Combined with two previous sources, it gives all the equations necessary to study convection.
+	
+	\vspace{11pt}
+	
+	\hyperref{http://www.webpackaging.com/en/portals/rexam/assets/11059498/spec-alu-202/}{}{}{webpackaging.com}.\cite{can}\\
 	This website was used to get the dimensions of a can. Using a commercial website to get scientific numbers is not a good idea but we have good reasons to believe those dimensions are correct enough for this report. The first reason is that as this website is specialised in selling those packaging to other companies, the dimensions given should be at least standardised. The second reason is that we did not require extremely accurate measures: our system is not that sensible to dimensional changes, as long as they are below 5\textdiscount. Finally, those dimensions were checked by measuring the can by our own means and the results were similar.
 	
 	\vspace{11pt}
@@ -395,7 +401,7 @@
 	ylabel('Temperature (K)')
 	\end{lstlisting}
 	
-	\section{Non-spinning model}\label{codeS}
+	\section{Spinning model}\label{codeS}
 	
 	\begin{lstlisting}[style=Matlab-editor]
 	t = linspace(0,120,1210);
