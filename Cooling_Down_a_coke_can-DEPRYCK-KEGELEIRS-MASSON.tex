@@ -66,30 +66,24 @@
 	
 	\chapter{Introduction}\label{intro}
 	
-	This report tends to explain the experiment done the 06/10/2015 during the "Fluid Mechanics and Transport Processes" course at ULB.The experiment can be found at \hyperref{https://www.youtube.com/watch?v=MSwc_IAPh3E}{}{}{this address}\footnote{\url{https://www.youtube.com/watch?v=MSwc_IAPh3E}}.
-	The physical phenomena behind this experiment are related to the heat transfert processes.
+	This report aims to explain the experiment done on the 06/10/2015 during the ``Fluid Mechanics and Transport Processes'' course at ULB. The experiment can be found at \hyperref{https://www.youtube.com/watch?v=MSwc_IAPh3E}{}{}{this address}\footnote{\url{https://www.youtube.com/watch?v=MSwc_IAPh3E}}.\\
+	The physical phenomena behind this experiment are related to the heat transfer processes.
 
-	The experiment consists to take three coke cans and a bucket of ice and water.
-	Each can is submited to a different treatment. The first can is used to determine the initial temperature. The second is just put inside
-	the bucket mentionned before and the last coke can is spun inside the bucket with a speed of $1000rpm$. The duration of the experiment is $60$ seconds.
-	At the end of this duration, the temperature of each coke can is measured. 
+	The experiment consists on taking three coke cans and a bucket of ice and water. Each can is subject to a different treatment.\\
+	The first can is used to measure the initial temperature.\\
+	The second one is just put inside the above mentioned bucket.\\
+	The last coke can is spun inside the bucket at a speed of $1000rpm$.
 	
-	The result for the 06/10/2015 experiment were : 16 \textdegree C for the first can, 11.9 \textdegree C for the second and 11 \textdegree C for the spinning can. 
-	The question here is how to explain this difference of temperature and the answer can be given by two phenomena : conduction and convection.
+	The duration of the experiment is $60$ seconds.	At the end of this duration, the temperature of each coke can is measured. 
+	
+	The result for this experiment were : $16$ \textcelsius\ for the first can, $11.9$ \textcelsius\ for the second and $11$ \textcelsius\ for the spinning can.
+	
+	The question here is how to explain this difference of temperature and the answer can be given by two phenomena: conduction and convection.
 
-	Both of those phenomena will be explained in the first part of this report. The second pard will describe the different mathematical models used for both cases. 
-	The simplifying assumptions considered for the global experiment will also be justified. 
-	The third part will tend to explain the reasons of the differences between the numerical data obtained and the measurements taken during the manipulation. 
+	Both of those phenomena will be explained in the first part of this report.\\
+	In the second part, simplifying assumptions considered for the experiment will be explained, after what the different mathematical models used will be described.\\
+	The third part will be dedicated to explaining the reasons of the differences between the numerical data obtained and the measurements taken during the manipulation.\\
 	A global conclusion will finish these report.
-	
-	\begin{itemize}
-		\item Three coke cans were available as well as a bucket of ice and water (at 0\textcelsius) and a drill to spin the can inside the bucket.
-		\item One of the cans was used to determine the initial temperature (16\textcelsius) of the fluid (essentially water) inside the can.
-		\item One can was left inside the bucket for 60 seconds and a final temperature of 11.9\textcelsius \ was measured as a result of the conductive heat transfer with the surrounding fluid.
-		\item One can was spun inside the bucket for 60 seconds at about 1000 rounds per minute, and a final temperature of 11\textcelsius \ was measured as a result of the convective and conductive heat transfer.
-	\end{itemize}
-	
-	In the first chapter, convective and conductive processes that are related to the experiment will be described. Those phenomena will then be applied to the problem via a mathematical model, including a discussion of simplifications brought to the problem in order to simplify calculations. This model will be compared to the experimental results, then a discussion on it's reliability followed by a conclusion on mathematical models in general will be presented.
 	
 	\chapter{Heat transfer processes}\label{htp}
 	
@@ -108,7 +102,7 @@
 	This equation can not be used by itself because of it's nature (second degree partial derivative equation). It thus needs boundary conditions linked to properties of the system. Those can be geometrical, physical, temporal or border conditions.
 	
 	Boundary conditions used and simplifications of the above presented general equation will be discussed in chapter~\ref{mm}.
-		
+	
 	\section{Convection}\label{cv}
 	
 	Convection refers to particular heat transfers in fluids. Convection occurs when some fluid is in movement. The movement lead to an advection (heat is transported by moving matter).
@@ -153,11 +147,11 @@
 	Furthermore, the hypothesis that all heat exchanges between the can and the surrounding ice-cold water take place on de sides of the can and not on it's top or bottom will be assumed. The total surface of the can is given by:
 	
 	\begin{equation}
-	\begin{gathered}
-		Surface= 2.Surface_{circle} + Surface_{rectangular side} \\
-		\Leftrightarrow S= 2 (\pi  (\frac{d}{2})^2) + \pi dh \\
-		\Leftrightarrow S= 30.8944 cm^3
-	\end{gathered}
+		\begin{gathered}
+			Surface= 2.Surface_{circle} + Surface_{rectangular side} \\
+			\Leftrightarrow S= 2 (\pi  (\frac{d}{2})^2) + \pi dh \\
+			\Leftrightarrow S= 30.8944 cm^3
+		\end{gathered}
 	\end{equation}
 	
 	Bottom and top circular surfaces have a total surface of $2xSurface_{circle}=2 (\pi  (\frac{d}{2})^2)= 6.8424 cm^3$, which makes around $22.14\% $ of the total surface. The reason why it was decided to ignore such a large portion of the can's area is that half of it is not even in contact with ice during the experiment (the system holding the can covers it's top and the non-spinning can is not totally in ice), reducing the area to consider at about $11\% $ of total exchange area. This can still be seen as a large percentage. However, on one side we are trying to cool down a liquid on the bottom of the can and, on the other hand, cold fluids tend to be more dense than hot fluids. Therefore, the liquid in contact with the bottom part will be cooler, making the heat transfer far less efficient there.
@@ -181,7 +175,7 @@
 	Where $Gr$ is the Grashof number and $Pr$ the Prandtl number. Prandtl can be found in annex~\ref{WTPP}: water being at 16\textcelsius (about $290K$), it gives $Pr=7.56$.\\
 	Grashof number is calculated using the following formula (taken from annex~\ref{FORMU}):
 	\begin{equation}
-	Gr=\frac{\beta g \Delta T_{ref} d^3}{\nu^2}
+		Gr=\frac{\beta g \Delta T_{ref} d^3}{\nu^2}
 	\end{equation}
 	
 	Where:
@@ -204,16 +198,16 @@
 	The easiest approximation is to describe the cylinder as a rectangular enclosure, with H (the height of the enclosure) equal to $h=116mm$ and L (the characteristic length of the enclosure) equal to $\frac{d}{2}=33mm$. This gives an H on L ratio of $\frac{H}{L}=3.352$. The equation 9-53 at page 555 of ``Heat and Mass Transfer: Fundamentals and Applications''~\cite{HaMT}, chapter 9-5 will thus be used:
 	\begin{equation}
 		\begin{gathered}
-		Nu=0.22(\frac{Pr}{0.2+Pr}Ra)^{0.28}(\frac{H}{L})^{-1/4}\\
-		\Leftrightarrow Nu=2.3835\times 10^{1}
+			Nu=0.22(\frac{Pr}{0.2+Pr}Ra)^{0.28}(\frac{H}{L})^{-1/4}\\
+			\Leftrightarrow Nu=2.3835\times 10^{1}
 		\end{gathered}	
 	\end{equation}
 	and:
 	\begin{equation}
 		\begin{gathered}
-		Nu=\frac{hL}{k}\\
-		\Leftrightarrow h=\frac{Nu k}{L}=\frac{2Nu k}{d}\\
-		\Leftrightarrow h=4.3191\times 10^2 \frac{W}{m^2K}
+			Nu=\frac{hL}{k}\\
+			\Leftrightarrow h=\frac{Nu k}{L}=\frac{2Nu k}{d}\\
+			\Leftrightarrow h=4.3191\times 10^2 \frac{W}{m^2K}
 		\end{gathered}	
 	\end{equation}
 	
@@ -221,16 +215,16 @@
 	
 	\begin{equation}\label{lumped}
 		\begin{gathered}
-		\rho C_pV\frac{dT}{dt}=-hS_{tot}(T-T_{ext})\\
-		\Leftrightarrow \frac{hS_{tot}}{\rho C_pV}dt=\frac{1}{(T_{ext}-T)}dT\\
-		\Leftrightarrow \frac{4h}{\rho C_pd}dt=\frac{1}{(T_{ext}-T)}dT\\
-		\Leftrightarrow \frac{4h}{\rho C_pd}t=ln(\frac{T_0-T_{ext}}{T_f-T_{ext}})\\
-		\Leftrightarrow e^{\frac{4h}{\rho C_pd}t}=\frac{T_0-T_{ext}}{T_f-T_{ext}}\\
-		\Leftrightarrow T_f=T_{ext}+\frac{T_0-T_{ext}}{e^{\frac{4h}{\rho C_pd}t}}
+			\rho C_pV\frac{dT}{dt}=-hS_{tot}(T-T_{ext})\\
+			\Leftrightarrow \frac{hS_{tot}}{\rho C_pV}dt=\frac{1}{(T_{ext}-T)}dT\\
+			\Leftrightarrow \frac{4h}{\rho C_pd}dt=\frac{1}{(T_{ext}-T)}dT\\
+			\Leftrightarrow \frac{4h}{\rho C_pd}t=ln(\frac{T_0-T_{ext}}{T_f-T_{ext}})\\
+			\Leftrightarrow e^{\frac{4h}{\rho C_pd}t}=\frac{T_0-T_{ext}}{T_f-T_{ext}}\\
+			\Leftrightarrow T_f=T_{ext}+\frac{T_0-T_{ext}}{e^{\frac{4h}{\rho C_pd}t}}
 		\end{gathered}
 	\end{equation}
 	
-	Using the parameters of the experiment, this gives $T_f=284.14K=10.99$\textcelsius\ after $t=60s$.
+	When we use the parameters of the experiment, this gives $T_f=284.14K=10.99$\textcelsius\ after $t=60s$.
 	
 	The fact that this value is quite far from what is observed in the experiment is due to some simplifications made here, like, for example, using the Lumped system equations, or some of the parameters choice.
 	
@@ -268,18 +262,18 @@
 	The next step is to use the formula for a flow on a flat plate (see annex~\ref{FORMU} page 4). The Reynolds number calculated before is $Re<3\times 10^5$, meaning that we are in laminar regime:
 	\begin{equation}
 		\begin{gathered}
-		Nu_{out}= \frac{1}{2}0.332Pr^{\frac{1}{3}}\sqrt{Re}\\
-		Nu_{out}=1.3857\times 10^2
+			Nu_{out}= \frac{1}{2}0.332Pr^{\frac{1}{3}}\sqrt{Re}\\
+			Nu_{out}=1.3857\times 10^2
 		\end{gathered}
 	\end{equation}
 	
 	$h$ can now be calculated :
 	\begin{equation}
-	h_{out}=\frac{Nu_{out}k}{L}=3.9029\times 10^2 \frac{W}{m^2K}
+		h_{out}=\frac{Nu_{out}k}{L}=3.9029\times 10^2 \frac{W}{m^2K}
 	\end{equation}
 	
-	Biot number is given by $Bi=\frac{h_{out}}{{\frac{4k}{d}+h_{in}}}$ where $h_{in}$ was calculated for natural convection in the non-spinning case~\ref{nsc}. Biot is thus $Bi=9.671\times 10^{-1}$, which is lower than the critical value of $1$. Using the lumped system equation~\ref{lumped} is therefore perfectly correct.
-
+	Biot number is given by $Bi=\frac{h_{out}}{{\frac{4k}{d}+h_{in}}}$ (equation from~\cite{MIT}) where $h_{in}$ was calculated for natural convection in the non-spinning case~\ref{nsc}. Biot is thus $Bi=9.671\times 10^{-1}$, which is lower than the critical value of $1$. Using the lumped system equation~\ref{lumped} is therefore perfectly correct.
+	
 	With $h=h_{out}+h_{in}$ and for $t=60s$, the final temperature is $T=281.42K=8.27$\textcelsius.
 	
 	Graph~\ref{Sg} shows the relation between temperature and time for different rotation speeds, ranging from $\Omega=0rpm$ to $\Omega=1750rpm$, with steps of $250rpm$. It can clearly be observed that at higher speeds, the can is cooled down more quickly.
@@ -301,17 +295,17 @@
 	The second one is that the surface of the can is described as a perfect cylinder and that some part of the surface are not taken into account because their influence is negligible. This also leads to slight differences with the reality.
 	
 	However the result obtained before are close from the actual value, especially for the non-spinning case. The main difference	between the two cases is the velocity of the spinning can. Even if this velocity is measured with good precision, the mathematical model considers $V_{fluid}=V_{screwdriver}$ on the surface of the can and the viscosity of the fluid (reducing the speed) is not taken into account, leading to significant lack of precision in the calculation of the convective coefficient $h$. This inaccuracy can be explained by the sensitivity of the forced convection to the velocity of the fluid as shown in graph~\ref{Sg}.
-
-
+	
+	
 	The precision of the measurement is an other point of argument. Indeed, the temperatures inside of the two cans were not measured at the same moment, allowing for the second can to warm up. Moreover the thermometer used had a non-negligible size compared to the can. It is then impossible to know the exact temperature on a point.
 	Therefore the system has to be considered as homogeneous which is not exactly the case in actual practice.
-
+	
 	Finally, the experiment was only done once, we can thus not ensure we did not make any mistake during the manipulation. Concluding on the precision of our model compared to only one experiment would be presumptuous.
-
+	
 	\chapter{Conclusion}\label{ccl}
 	
 	As seen in the previous section there are differences between the theoretical model and the reality. These differences can be explained by the different approximations done in the model and by experimental errors. However, even if the mathematical model does not perfectly fit the reality, it puts in evidence the general behaviour of the system which is the point of this study.
-
+	
 	The general behaviour of the two different cases underlines the impact of forced convection, natural convection and conduction in heat transfers and on this basis some conclusion about heat transfer processes can be made.
 	
 	First, because of the flow properties of the fluid, the conductive heat transfer is negligible in comparison with convective heat transfers and can be omit.
@@ -321,7 +315,28 @@
 	Looking at this different phenomena with an engineer point of view, the possibilities offered by forced convection appear clearly relevant, not only for a can cooling systems but also in various other applications where it could accelerate heat transfer processes.
 	
 	\appendix
-
+	
+	\chapter{Sources}
+	
+	``Perry’s	Chemical Engineers’ Handbook''\cite{properties}, a reference book for chemical properties of various elements.\\
+	This book has been chosen because it has very complete tables that give properties of the water at different temperatures. Those properties where measured and validated and include data from NASA experiments, which should lead to a relative precision and reliability.
+	
+	\vspace{11pt}
+	
+	``MECA-H-300 Phénomènes de Transport, Notes de Cours''\cite{Buchlin}.\\
+	This is the reference book form MECA H-3001. It has been written by Jean-Marie BUCHLIN, who was this course's teacher before Pr Parente. Pr Buchling now works at Institut Von Karman for Fluid Dynamics. Equations presented where all validated and published in international scientific papers.
+	
+	\vspace{11pt}
+	
+	``Heat and Mass Transfer Fundamentals and Applications''\cite{HaMT}.\\
+	Written by two well known scientist in the field of fluid mechanics, this book is the new reference book for Pr Parente's course. It presents equations and discussions for various heat transfer cases, along with a set of validated charts of materials properties. The edition used is the fifth, that was published in 2014 after a set of corrections.
+	
+	\vspace{11pt}
+	
+	``Course materials for 10.37 Chemical and Biological Reaction Engineering''\cite{MIT}.\\
+	This article was published by Pr Adrian for his course at the MIT. Even if it is an open course, we assume that the MIT gives quality courses that should be considered as valid. Furthermore, the equations presented here are based on equations given in ``Heat and Mass Transfer Fundamentals and Applications''\cite{HaMT}, which gives weight to both of these sources.
+	
+	
 	\chapter{Water Thermo-Physical Properties}\label{WTPP}
 	
 	These chart can be are extracted from ``Perry’s	Chemical Engineers’ Handbook'', Chapter 2\cite{properties}.
