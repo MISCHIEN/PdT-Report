@@ -110,8 +110,8 @@
 	
 	An important distinction can be made in convective heat transfers : convection can be natural or forced.
 	Natural convection occurs mainly due to temperature differences which modify fluids density. Increasing the temperature amplifies thermal agitation which leads to a volume expansion along with a decreasing of density. Cold components are thus heavier and fall down while lighter hot components rise. This created a bulk fluid motion initiating a convective heat transfer called natural convection.
-	Forced convection refers to a convective heat transfer due to surface forces which generates a movement in the fuid. Those surfaces forces can can be applied by either artificial ways such as fans or natural ways such as blowing wind.
-	Both natural and forced convection can happend simultaneously.
+	Forced convection refers to a convective heat transfer due to surface forces which generates a movement in the fuid. This convective heat transfer has thus a great sensitivity to the velocity acquired by the fluid. The surfaces forces can be applied by either artificial ways such as fans or natural ways such as blowing wind. 
+	Both natural and forced convection can happend simultaneously but forced convection is usually the most significant, especially at high velocity.
 	
 	The flow properties also have a major impact on convective heat transfers and can be expressed through dimensionless numbers.
 	As convection depends on the flow (laminar, turbulent,...), we will discuss the equation to use in the next chapter(Mathematical model, chapter~\ref{mm}).
@@ -290,12 +290,39 @@
 	\end{figure}
 	
 	\chapter[Reality and mathematical model]{Comparison between reality and the mathematical model}\label{rvmm}
+	This section is about the difference between the mathematical model and the reality. A simple look at the measurement done, underline that the mathematical model doesn’t perfectly correspond to the reality. The temperature observed in the non-spinning case are 11,9 \textdegree C in reality and 11,40 \textdegree C in the mathematical model. For the spinning case respectively 11 \textdegree C  and 8,27 \textdegree C were found.
+	The main reason of this difference is that the mathematical model is based on simplified assumptions.
 	
+	First it was considered that the fluid inside
+	the can has the same properties as water. This approximation leads to errors on the value of some calculated parameters like the kinematic viscosity
+	used to calculate the Grashof number. Moreover this number has a direct impact on the value of the convective coefficient h because it permits to obtain the Nusselt 
+	number($N_{u}=\frac{hL}{k}$). 
+	
+	Furthermore the surface of the can is described as a perfect cylinder and some part of the surface are not taken into account because these
+	parts of the surface has an negligilbe effect. Though this also leads to slight differences with the reality.   
+
+	However the result obtained before are close from the actual value, especially for the non-spinning case. The main difference
+	between the two cases is the velocity of the spinning can. Even if this velocity is measured with good precision, the mathematical model 
+	considers $V_{fluid}=V_{screwdriver}$ at the extremity of the can and the viscosity of the fluid (reducing the speed) is not taken into account, leading to significant lack of precision in the calculation of the convective coefficient h. This inaccuracy can be explained by the sensitivity of the forced convection to the velocity of the fluid.
+
+
+	The precision of the measurement is an other point of argument. In fact the two cans were not measured at the same moment allowing for the first can to warm up. Moreover the thermometer used had a non-neglible size comparated to the can. It is then impossible to know the exact temperature on a point.
+	Therefore the system has to be considered as homogenenous which is not exactly the case in actual practice.
+
+
 	\chapter{Conclusion}\label{ccl}
+	As seen in the previous section there are differences between the theoretical model and the reality. This differences can be explained by the different approximations
+	done in the model(can filled with water instead of coke, some part of the can's surface neglected, etc). Those simplified assumptions permit to obtain a coherent system with accurate enough results.
+	However, even if the mathematical model does not perfectly fit with reality it put in evidence the general behavior of the system wich is the point of this study.
+
+	The general behavior of the two different cases underlines the impact of forced convection, natural convection and conduction in heat transfers and on this basis some conclusion about heat transfer processes can be made.
+	First, due to the flow properties of the fluid, the conductive heat transfer is negligible in comparison with convective heat transfers and can be omit. 
+	Then, it is necessary to distinguish natural and forced convection. As seen at the Figure \ref{Sg}, at high speed, forced convection becomes far more important than natural convection, which leads to the difference of final temperature in the two studied cases.
 	
+	Looking at this different phenomena with an engineer point of view, the possibilities offered by forced convection appear clearly relevent not only in cooling systems but also in various other applications where it could accelerate heat transfer processes. The experiment done here demonstrates it.
 	
 	\appendix
-	
+
 	\chapter{Water Thermo-Physical Properties}\label{WTPP}
 	
 	These chart can be are extracted from ``Perry’s	Chemical Engineers’ Handbook'', Chapter 2\cite{properties}.
